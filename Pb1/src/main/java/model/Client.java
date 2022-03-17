@@ -71,14 +71,13 @@ public class Client extends Entity<Integer>{
 
     @Override
     public String toString() {
-        return "Client{" +
-                "firstNameClient='" + firstNameClient + '\'' +
-                ", firstNameTourist='" + firstNameTourist + '\'' +
-                ", lastNameClient='" + lastNameClient + '\'' +
-                ", lastNameTourist='" + lastNameTourist + '\'' +
-                ", addressClient='" + addressClient + '\'' +
-                ", numberOfPlace=" + numberOfPlace +
-                '}';
+        return "The Client's dates: " +
+                "Fist name:" + firstNameClient  +
+                "| Last name:" + lastNameClient + '\n'+"The Tourist dates:" +
+                "First name" + firstNameTourist +
+                " |Last name:" + lastNameTourist + '\n' +
+                " |Address:" + addressClient + '\n' +
+                " |Number of places:" + numberOfPlace ;
     }
 
     @Override

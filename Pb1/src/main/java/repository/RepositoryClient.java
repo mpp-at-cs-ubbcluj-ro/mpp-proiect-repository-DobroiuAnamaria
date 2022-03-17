@@ -6,9 +6,13 @@ import model.Entity;
 import java.util.List;
 import java.util.Map;
 
-public class RepositoryClient <ID, E extends Entity<ID>> extends AbstractRepository<ID, E> implements Repository<ID,E>
+public abstract class RepositoryClient <ID, E extends Entity<ID>> extends AbstractRepository<ID, E> implements Repository<ID,E>
 {
     protected Map<ID, E> client;
+
+    public RepositoryClient(Client client) {
+        super();
+    }
 
 
     @Override
@@ -17,6 +21,8 @@ public class RepositoryClient <ID, E extends Entity<ID>> extends AbstractReposit
             throw new IllegalArgumentException("id must be not null");
         return client.get(id);
     }
+
+    public abstract Client findOne(Integer integer);
 
     @Override
     public Iterable<E> findAll() {
@@ -83,8 +89,11 @@ public class RepositoryClient <ID, E extends Entity<ID>> extends AbstractReposit
     public List<E> findClient(Long id) {
         return null;
     }
-    @Override
-    public E save(ID id) {
-        return null;
-    }
+
+
+    public abstract Client save(Client entity);
+
+    public abstract Integer delete(Integer integer);
+
+    public abstract Client update(Client entity);
 }

@@ -2,13 +2,18 @@ package repository;
 
 import model.Client;
 import model.Entity;
+import model.Flight;
 
 import java.util.List;
 import java.util.Map;
 
-public class RepositoryFlight <ID, E extends Entity<ID>> extends AbstractRepository<ID, E> implements Repository<ID,E>
+public abstract class RepositoryFlight <ID, E extends Entity<ID>> extends AbstractRepository<ID, E> implements Repository<ID,E>
 {
     protected Map<ID, E> flights;
+
+    public RepositoryFlight(Flight flight) {
+        super();
+    }
 
 
     @Override
@@ -17,6 +22,8 @@ public class RepositoryFlight <ID, E extends Entity<ID>> extends AbstractReposit
             throw new IllegalArgumentException("id must be not null");
         return flights.get(id);
     }
+
+    public abstract Flight findOne(Integer integer);
 
     @Override
     public Iterable<E> findAll() {
@@ -86,4 +93,10 @@ public class RepositoryFlight <ID, E extends Entity<ID>> extends AbstractReposit
     public E save(ID id) {
         return null;
     }
+
+    public abstract Flight save(Flight entity);
+
+    public abstract Integer delete(Integer integer);
+
+    public abstract Flight update(Flight entity);
 }
