@@ -2,55 +2,46 @@ package model;
 
 import java.util.Objects;
 
-public class Client extends Entity<Integer>{
+public class Client extends Entity<Integer> {
+    private String username;
+    private String password;
+    private String NameClient;
+    private String addressClient;
 
-    String firstNameClient;
-    String firstNameTourist;
-    String lastNameClient;
-    String lastNameTourist;
-    String addressClient;
-    int numberOfPlace;
 
-    public Client(String firstNameClient, String firstNameTourist, String lastNameClient, String lastNameTourist, String addressClient, int numberOfPlace)
-    {
-        this.firstNameClient = firstNameClient;
-        this.firstNameTourist = firstNameTourist;
-        this.lastNameClient = lastNameClient;
-        this.lastNameTourist = lastNameTourist;
-        this.addressClient = addressClient;
-        this.numberOfPlace = numberOfPlace;
+    @Override
+    public String toString() {
+        return "Client{" +
+                "username='" + username + '\'' +
+                ", password='" + password + '\'' +
+                ", NameClient='" + NameClient + '\'' +
+                ", addressClient='" + addressClient + '\'' +
+
+                '}';
     }
 
-    public String getFirstNameClient() {
-        return firstNameClient;
+    public String getUsername() {
+        return username;
     }
 
-    public void setFirstNameClient(String firstNameClient) {
-        this.firstNameClient = firstNameClient;
+    public void setUsername(String username) {
+        this.username = username;
     }
 
-    public String getFirstNameTourist() {
-        return firstNameTourist;
+    public String getPassword() {
+        return password;
     }
 
-    public void setFirstNameTourist(String firstNameTourist) {
-        this.firstNameTourist = firstNameTourist;
+    public void setPassword(String password) {
+        this.password = password;
     }
 
-    public String getLastNameClient() {
-        return lastNameClient;
+    public String getNameClient() {
+        return NameClient;
     }
 
-    public void setLastNameClient(String lastNameClient) {
-        this.lastNameClient = lastNameClient;
-    }
-
-    public String getLastNameTourist() {
-        return lastNameTourist;
-    }
-
-    public void setLastNameTourist(String lastNameTourist) {
-        this.lastNameTourist = lastNameTourist;
+    public void setNameClient(String nameClient) {
+        NameClient = nameClient;
     }
 
     public String getAddressClient() {
@@ -61,35 +52,15 @@ public class Client extends Entity<Integer>{
         this.addressClient = addressClient;
     }
 
-    public int getNumberOfPlace() {
-        return numberOfPlace;
-    }
 
-    public void setNumberOfPlace(int numberOfPlace) {
-        this.numberOfPlace = numberOfPlace;
-    }
 
-    @Override
-    public String toString() {
-        return "The Client's dates: " +
-                "Fist name:" + firstNameClient  +
-                "| Last name:" + lastNameClient + '\n'+"The Tourist dates:" +
-                "First name" + firstNameTourist +
-                " |Last name:" + lastNameTourist + '\n' +
-                " |Address:" + addressClient + '\n' +
-                " |Number of places:" + numberOfPlace ;
-    }
+    public Client(String username, String password, String nameClient, String addressClient) {
+        this.username = username;
+        this.password = password;
+        NameClient = nameClient;
+        this.addressClient = addressClient;
 
-    @Override
-    public boolean equals(Object o) {
-        if (this == o) return true;
-        if (o == null || getClass() != o.getClass()) return false;
-        Client client = (Client) o;
-        return numberOfPlace == client.numberOfPlace && Objects.equals(firstNameClient, client.firstNameClient) && Objects.equals(firstNameTourist, client.firstNameTourist) && Objects.equals(lastNameClient, client.lastNameClient) && Objects.equals(lastNameTourist, client.lastNameTourist) && Objects.equals(addressClient, client.addressClient);
-    }
 
-    @Override
-    public int hashCode() {
-        return Objects.hash(firstNameClient, firstNameTourist, lastNameClient, lastNameTourist, addressClient, numberOfPlace);
+
     }
 }

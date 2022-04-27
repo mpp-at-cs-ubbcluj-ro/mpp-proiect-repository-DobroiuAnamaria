@@ -1,0 +1,2 @@
+D:\mpp-proiect-repository-DobroiuAnamaria\Pb1\p1\p1\obj\Debug\p1.csprojAssemblyReference.cache
+D:\mpp-proiect-repository-DobroiuAnamaria\Pb1\p1\p1\obj\Debug\p1.csproj.CoreCompileInputs.cache

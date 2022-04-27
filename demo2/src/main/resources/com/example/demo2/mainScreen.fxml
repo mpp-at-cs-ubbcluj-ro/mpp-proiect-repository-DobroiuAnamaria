@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane xmlns="http://javafx.com/javafx"
+            xmlns:fx="http://javafx.com/fxml"
+            fx:controller="com.example.demo2.MainScreen"
+            prefHeight="400.0" prefWidth="600.0">
+
+    <ListView fx:id="showFlights" layoutX="14.0" layoutY="14.0" onMouseClicked="#showFlights" prefHeight="376.0" prefWidth="384.0" />
+    <VBox alignment="CENTER" layoutX="447.0" layoutY="90.0" prefHeight="260.0" prefWidth="227.0" spacing="20"
+          style="-fx-padding: 10;">
+        <TextField fx:id="nameFlight" disable="true" promptText="Flight"/>
+        <TextField fx:id="clientNameField" promptText="Client name"/>
+        <TextField fx:id="numberOfTicketsField" promptText="No. of tickets"/>
+        <Label fx:id="reserveMatchStatusLabel" text="Label"/>
+        <Button mnemonicParsing="false" onAction="#makeReservationPress" prefHeight="9.0" prefWidth="253.0"
+                text="Make reservation"/>
+    </VBox>
+    <HBox alignment="CENTER" layoutX="406.0" layoutY="26.0" prefHeight="41.0" prefWidth="292.0" spacing="10">
+        <Button mnemonicParsing="false" onAction="#allFlight" text="All flights"/>
+        <Button mnemonicParsing="false" onAction="#availableFlight" text="Available flights"/>
+        <Button fx:id="signOutButton" mnemonicParsing="false" onAction="#signOutPress" text="Sign out"/>
+    </HBox>
+
+</AnchorPane>

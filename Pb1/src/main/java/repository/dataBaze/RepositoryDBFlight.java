@@ -125,6 +125,7 @@ public class RepositoryDBFlight extends RepositoryFlight {
         logger.traceEntry("Updating task {}", entity);
         Connection connection = databaseUtils.getConnection();
 
+
         try (PreparedStatement preparedStatement = connection.prepareStatement("update  set Departure=?, Arrival=?, DateDeparture=?, TimeDeparture=?, Airport=?, NumberOfPlace=? where id=?")) {
             preparedStatement.setString(1, entity.getDestiantion());
             preparedStatement.setString(2, entity.getArrival());

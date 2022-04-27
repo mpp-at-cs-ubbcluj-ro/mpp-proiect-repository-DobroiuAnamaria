@@ -1,0 +1,1084 @@
+17 Mar 2022 10:46:17,794 INFO  repository.dataBaze.RepositoryDBClient 25 <init> - Initialising RaceDBRepository with properties: {}
+17 Mar 2022 10:46:17,803 TRACE repository.dataBaze.RepositoryDBClient 94 save - Enter Saving client Client{firstNameClient='Marin', firstNameTourist='Rares', lastNameClient='Costel', lastNameTourist='Alex', addressClient='Matei Basarab', numberOfPlace=2}
+17 Mar 2022 10:46:17,803 TRACE utils.JDBCUtils 33 getConnection - Enter
+17 Mar 2022 10:46:17,804 TRACE utils.JDBCUtils 44 getNewConnection - Enter
+17 Mar 2022 10:46:17,804 INFO  utils.JDBCUtils 49 getNewConnection - Trying to connect to database ... null
+17 Mar 2022 10:46:17,804 INFO  utils.JDBCUtils 50 getNewConnection - Username: null
+17 Mar 2022 10:46:17,805 INFO  utils.JDBCUtils 51 getNewConnection - Password: null
+17 Mar 2022 10:46:17,806 ERROR utils.JDBCUtils 58 getNewConnection - java.sql.SQLException: The url cannot be null
+17 Mar 2022 10:46:17,807 TRACE utils.JDBCUtils 37 getConnection - Exit
+17 Mar 2022 10:47:48,487 INFO  repository.dataBaze.RepositoryDBClient 25 <init> - Initialising RaceDBRepository with properties: {}
+17 Mar 2022 10:47:48,496 TRACE repository.dataBaze.RepositoryDBClient 94 save - Enter Saving client Client{firstNameClient='Marin', firstNameTourist='Rares', lastNameClient='Costel', lastNameTourist='Alex', addressClient='Matei Basarab', numberOfPlace=2}
+17 Mar 2022 10:47:48,496 TRACE utils.JDBCUtils 33 getConnection - Enter
+17 Mar 2022 10:47:48,497 TRACE utils.JDBCUtils 44 getNewConnection - Enter
+17 Mar 2022 10:47:48,497 INFO  utils.JDBCUtils 49 getNewConnection - Trying to connect to database ... null
+17 Mar 2022 10:47:48,497 INFO  utils.JDBCUtils 50 getNewConnection - Username: null
+17 Mar 2022 10:47:48,497 INFO  utils.JDBCUtils 51 getNewConnection - Password: null
+17 Mar 2022 10:47:48,498 ERROR utils.JDBCUtils 58 getNewConnection - java.sql.SQLException: The url cannot be null
+17 Mar 2022 10:47:48,499 TRACE utils.JDBCUtils 37 getConnection - Exit
+17 Mar 2022 10:50:15,932 INFO  repository.dataBaze.RepositoryDBClient 25 <init> - Initialising RaceDBRepository with properties: {jdbc.url=jdbc:sqlite:D:/mpp-proiect-repository-DobroiuAnamaria/FlightsCompany.db}
+17 Mar 2022 10:50:15,941 TRACE repository.dataBaze.RepositoryDBClient 94 save - Enter Saving client Client{firstNameClient='Marin', firstNameTourist='Rares', lastNameClient='Costel', lastNameTourist='Alex', addressClient='Matei Basarab', numberOfPlace=2}
+17 Mar 2022 10:50:15,942 TRACE utils.JDBCUtils 33 getConnection - Enter
+17 Mar 2022 10:50:15,942 TRACE utils.JDBCUtils 44 getNewConnection - Enter
+17 Mar 2022 10:50:15,942 INFO  utils.JDBCUtils 49 getNewConnection - Trying to connect to database ... jdbc:sqlite:D:/mpp-proiect-repository-DobroiuAnamaria/FlightsCompany.db
+17 Mar 2022 10:50:15,942 INFO  utils.JDBCUtils 50 getNewConnection - Username: null
+17 Mar 2022 10:50:15,942 INFO  utils.JDBCUtils 51 getNewConnection - Password: null
+17 Mar 2022 10:50:16,195 TRACE utils.JDBCUtils 37 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@c430e6c)
+17 Mar 2022 10:50:16,198 ERROR repository.dataBaze.RepositoryDBClient 106 save - org.sqlite.SQLiteException: [SQLITE_ERROR] SQL error or missing database (near "(": syntax error)
+17 Mar 2022 10:50:16,198 TRACE repository.dataBaze.RepositoryDBClient 108 save - Exit
+17 Mar 2022 10:50:16,198 TRACE repository.dataBaze.RepositoryDBClient 61 findAll - Enter Finding task
+17 Mar 2022 10:50:16,199 TRACE utils.JDBCUtils 33 getConnection - Enter
+17 Mar 2022 10:50:16,199 TRACE utils.JDBCUtils 37 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@c430e6c)
+17 Mar 2022 10:50:16,199 ERROR repository.dataBaze.RepositoryDBClient 81 findAll - org.sqlite.SQLiteException: [SQLITE_ERROR] SQL error or missing database (incomplete input)
+17 Mar 2022 10:50:16,200 TRACE repository.dataBaze.RepositoryDBClient 83 findAll - Exit
+17 Mar 2022 10:51:36,713 INFO  repository.dataBaze.RepositoryDBClient 25 <init> - Initialising RaceDBRepository with properties: {jdbc.url=jdbc:sqlite:D:/mpp-proiect-repository-DobroiuAnamaria/FlightsCompany.db}
+17 Mar 2022 10:51:36,723 TRACE repository.dataBaze.RepositoryDBClient 94 save - Enter Saving client Client{firstNameClient='Marin', firstNameTourist='Rares', lastNameClient='Costel', lastNameTourist='Alex', addressClient='Matei Basarab', numberOfPlace=2}
+17 Mar 2022 10:51:36,723 TRACE utils.JDBCUtils 33 getConnection - Enter
+17 Mar 2022 10:51:36,724 TRACE utils.JDBCUtils 44 getNewConnection - Enter
+17 Mar 2022 10:51:36,724 INFO  utils.JDBCUtils 49 getNewConnection - Trying to connect to database ... jdbc:sqlite:D:/mpp-proiect-repository-DobroiuAnamaria/FlightsCompany.db
+17 Mar 2022 10:51:36,724 INFO  utils.JDBCUtils 50 getNewConnection - Username: null
+17 Mar 2022 10:51:36,724 INFO  utils.JDBCUtils 51 getNewConnection - Password: null
+17 Mar 2022 10:51:36,919 TRACE utils.JDBCUtils 37 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@c430e6c)
+17 Mar 2022 10:51:36,922 ERROR repository.dataBaze.RepositoryDBClient 106 save - org.sqlite.SQLiteException: [SQLITE_ERROR] SQL error or missing database (near "(": syntax error)
+17 Mar 2022 10:51:36,922 TRACE repository.dataBaze.RepositoryDBClient 108 save - Exit
+17 Mar 2022 10:51:36,922 TRACE repository.dataBaze.RepositoryDBClient 61 findAll - Enter Finding task
+17 Mar 2022 10:51:36,923 TRACE utils.JDBCUtils 33 getConnection - Enter
+17 Mar 2022 10:51:36,923 TRACE utils.JDBCUtils 37 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@c430e6c)
+17 Mar 2022 10:51:36,923 ERROR repository.dataBaze.RepositoryDBClient 81 findAll - org.sqlite.SQLiteException: [SQLITE_ERROR] SQL error or missing database (incomplete input)
+17 Mar 2022 10:51:36,923 TRACE repository.dataBaze.RepositoryDBClient 83 findAll - Exit
+17 Mar 2022 11:18:08,431 INFO  repository.dataBaze.RepositoryDBClient 25 <init> - Initialising RaceDBRepository with properties: {jdbc.url=jdbc:sqlite:D:/mpp-proiect-repository-DobroiuAnamaria/FlightsCompany.db}
+17 Mar 2022 11:18:08,441 TRACE repository.dataBaze.RepositoryDBClient 94 save - Enter Saving client Client{firstNameClient='Marin', firstNameTourist='Rares', lastNameClient='Costel', lastNameTourist='Alex', addressClient='Matei Basarab', numberOfPlace=2}
+17 Mar 2022 11:18:08,441 TRACE utils.JDBCUtils 33 getConnection - Enter
+17 Mar 2022 11:18:08,442 TRACE utils.JDBCUtils 44 getNewConnection - Enter
+17 Mar 2022 11:18:08,442 INFO  utils.JDBCUtils 49 getNewConnection - Trying to connect to database ... jdbc:sqlite:D:/mpp-proiect-repository-DobroiuAnamaria/FlightsCompany.db
+17 Mar 2022 11:18:08,442 INFO  utils.JDBCUtils 50 getNewConnection - Username: null
+17 Mar 2022 11:18:08,442 INFO  utils.JDBCUtils 51 getNewConnection - Password: null
+17 Mar 2022 11:18:08,689 TRACE utils.JDBCUtils 37 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@c430e6c)
+17 Mar 2022 11:18:08,691 ERROR repository.dataBaze.RepositoryDBClient 106 save - org.sqlite.SQLiteException: [SQLITE_ERROR] SQL error or missing database (near "(": syntax error)
+17 Mar 2022 11:18:08,692 TRACE repository.dataBaze.RepositoryDBClient 108 save - Exit
+17 Mar 2022 11:18:08,692 TRACE repository.dataBaze.RepositoryDBClient 61 findAll - Enter Finding task
+17 Mar 2022 11:18:08,692 TRACE utils.JDBCUtils 33 getConnection - Enter
+17 Mar 2022 11:18:08,692 TRACE utils.JDBCUtils 37 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@c430e6c)
+17 Mar 2022 11:18:08,693 ERROR repository.dataBaze.RepositoryDBClient 81 findAll - org.sqlite.SQLiteException: [SQLITE_ERROR] SQL error or missing database (incomplete input)
+17 Mar 2022 11:18:08,693 TRACE repository.dataBaze.RepositoryDBClient 83 findAll - Exit
+17 Mar 2022 11:18:58,951 INFO  repository.dataBaze.RepositoryDBClient 25 <init> - Initialising RaceDBRepository with properties: {jdbc.url=jdbc:sqlite:D:/mpp-proiect-repository-DobroiuAnamaria/FlightsCompany.db}
+17 Mar 2022 11:18:58,960 TRACE repository.dataBaze.RepositoryDBClient 94 save - Enter Saving client Client{firstNameClient='Marin', firstNameTourist='Rares', lastNameClient='Costel', lastNameTourist='Alex', addressClient='Matei Basarab', numberOfPlace=2}
+17 Mar 2022 11:18:58,960 TRACE utils.JDBCUtils 33 getConnection - Enter
+17 Mar 2022 11:18:58,961 TRACE utils.JDBCUtils 44 getNewConnection - Enter
+17 Mar 2022 11:18:58,961 INFO  utils.JDBCUtils 49 getNewConnection - Trying to connect to database ... jdbc:sqlite:D:/mpp-proiect-repository-DobroiuAnamaria/FlightsCompany.db
+17 Mar 2022 11:18:58,961 INFO  utils.JDBCUtils 50 getNewConnection - Username: null
+17 Mar 2022 11:18:58,961 INFO  utils.JDBCUtils 51 getNewConnection - Password: null
+17 Mar 2022 11:18:59,131 TRACE utils.JDBCUtils 37 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@c430e6c)
+17 Mar 2022 11:18:59,134 ERROR repository.dataBaze.RepositoryDBClient 106 save - org.sqlite.SQLiteException: [SQLITE_ERROR] SQL error or missing database (near "(": syntax error)
+17 Mar 2022 11:18:59,134 TRACE repository.dataBaze.RepositoryDBClient 108 save - Exit
+17 Mar 2022 11:18:59,134 TRACE repository.dataBaze.RepositoryDBClient 61 findAll - Enter Finding task
+17 Mar 2022 11:18:59,135 TRACE utils.JDBCUtils 33 getConnection - Enter
+17 Mar 2022 11:18:59,135 TRACE utils.JDBCUtils 37 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@c430e6c)
+17 Mar 2022 11:18:59,135 ERROR repository.dataBaze.RepositoryDBClient 81 findAll - org.sqlite.SQLiteException: [SQLITE_ERROR] SQL error or missing database (incomplete input)
+17 Mar 2022 11:18:59,135 TRACE repository.dataBaze.RepositoryDBClient 83 findAll - Exit
+17 Mar 2022 11:20:53,533 INFO  repository.dataBaze.RepositoryDBClient 25 <init> - Initialising RaceDBRepository with properties: {jdbc.url=jdbc:sqlite:D:/mpp-proiect-repository-DobroiuAnamaria/FlightsCompany.db}
+17 Mar 2022 11:20:53,543 TRACE repository.dataBaze.RepositoryDBClient 94 save - Enter Saving client Client{firstNameClient='Marin', firstNameTourist='Rares', lastNameClient='Costel', lastNameTourist='Alex', addressClient='Matei Basarab', numberOfPlace=2}
+17 Mar 2022 11:20:53,543 TRACE utils.JDBCUtils 33 getConnection - Enter
+17 Mar 2022 11:20:53,543 TRACE utils.JDBCUtils 44 getNewConnection - Enter
+17 Mar 2022 11:20:53,543 INFO  utils.JDBCUtils 49 getNewConnection - Trying to connect to database ... jdbc:sqlite:D:/mpp-proiect-repository-DobroiuAnamaria/FlightsCompany.db
+17 Mar 2022 11:20:53,543 INFO  utils.JDBCUtils 50 getNewConnection - Username: null
+17 Mar 2022 11:20:53,544 INFO  utils.JDBCUtils 51 getNewConnection - Password: null
+17 Mar 2022 11:20:53,714 TRACE utils.JDBCUtils 37 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@c430e6c)
+17 Mar 2022 11:20:53,717 ERROR repository.dataBaze.RepositoryDBClient 106 save - org.sqlite.SQLiteException: [SQLITE_ERROR] SQL error or missing database (near "(": syntax error)
+17 Mar 2022 11:20:53,717 TRACE repository.dataBaze.RepositoryDBClient 108 save - Exit
+17 Mar 2022 11:20:53,718 TRACE repository.dataBaze.RepositoryDBClient 61 findAll - Enter Finding task
+17 Mar 2022 11:20:53,718 TRACE utils.JDBCUtils 33 getConnection - Enter
+17 Mar 2022 11:20:53,718 TRACE utils.JDBCUtils 37 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@c430e6c)
+17 Mar 2022 11:20:53,719 ERROR repository.dataBaze.RepositoryDBClient 81 findAll - org.sqlite.SQLiteException: [SQLITE_ERROR] SQL error or missing database (incomplete input)
+17 Mar 2022 11:20:53,719 TRACE repository.dataBaze.RepositoryDBClient 83 findAll - Exit
+17 Mar 2022 11:23:15,541 INFO  repository.dataBaze.RepositoryDBClient 25 <init> - Initialising RaceDBRepository with properties: {jdbc.url=jdbc:sqlite:D:/mpp-proiect-repository-DobroiuAnamaria/FlightsCompany.db}
+17 Mar 2022 11:23:15,557 TRACE repository.dataBaze.RepositoryDBClient 94 save - Enter Saving client Client{firstNameClient='Marin', firstNameTourist='Rares', lastNameClient='Costel', lastNameTourist='Alex', addressClient='Matei Basarab', numberOfPlace=2}
+17 Mar 2022 11:23:15,558 TRACE utils.JDBCUtils 33 getConnection - Enter
+17 Mar 2022 11:23:15,558 TRACE utils.JDBCUtils 44 getNewConnection - Enter
+17 Mar 2022 11:23:15,558 INFO  utils.JDBCUtils 49 getNewConnection - Trying to connect to database ... jdbc:sqlite:D:/mpp-proiect-repository-DobroiuAnamaria/FlightsCompany.db
+17 Mar 2022 11:23:15,559 INFO  utils.JDBCUtils 50 getNewConnection - Username: null
+17 Mar 2022 11:23:15,559 INFO  utils.JDBCUtils 51 getNewConnection - Password: null
+17 Mar 2022 11:23:15,758 TRACE utils.JDBCUtils 37 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@c430e6c)
+17 Mar 2022 11:23:15,762 ERROR repository.dataBaze.RepositoryDBClient 106 save - org.sqlite.SQLiteException: [SQLITE_ERROR] SQL error or missing database (near "(": syntax error)
+17 Mar 2022 11:23:15,762 TRACE repository.dataBaze.RepositoryDBClient 108 save - Exit
+17 Mar 2022 11:23:15,763 TRACE repository.dataBaze.RepositoryDBClient 61 findAll - Enter Finding task
+17 Mar 2022 11:23:15,763 TRACE utils.JDBCUtils 33 getConnection - Enter
+17 Mar 2022 11:23:15,763 TRACE utils.JDBCUtils 37 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@c430e6c)
+17 Mar 2022 11:23:15,763 ERROR repository.dataBaze.RepositoryDBClient 81 findAll - org.sqlite.SQLiteException: [SQLITE_ERROR] SQL error or missing database (incomplete input)
+17 Mar 2022 11:23:15,764 TRACE repository.dataBaze.RepositoryDBClient 83 findAll - Exit
+17 Mar 2022 11:24:55,397 INFO  repository.dataBaze.RepositoryDBClient 25 <init> - Initialising RaceDBRepository with properties: {jdbc.url=jdbc:sqlite:D:/mpp-proiect-repository-DobroiuAnamaria/FlightsCompany.db}
+17 Mar 2022 11:24:55,408 TRACE repository.dataBaze.RepositoryDBClient 94 save - Enter Saving client Client{firstNameClient='Marin', firstNameTourist='Rares', lastNameClient='Costel', lastNameTourist='Alex', addressClient='Matei Basarab', numberOfPlace=2}
+17 Mar 2022 11:24:55,408 TRACE utils.JDBCUtils 33 getConnection - Enter
+17 Mar 2022 11:24:55,409 TRACE utils.JDBCUtils 44 getNewConnection - Enter
+17 Mar 2022 11:24:55,409 INFO  utils.JDBCUtils 49 getNewConnection - Trying to connect to database ... jdbc:sqlite:D:/mpp-proiect-repository-DobroiuAnamaria/FlightsCompany.db
+17 Mar 2022 11:24:55,409 INFO  utils.JDBCUtils 50 getNewConnection - Username: null
+17 Mar 2022 11:24:55,409 INFO  utils.JDBCUtils 51 getNewConnection - Password: null
+17 Mar 2022 11:24:55,599 TRACE utils.JDBCUtils 37 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@c430e6c)
+17 Mar 2022 11:24:55,603 ERROR repository.dataBaze.RepositoryDBClient 106 save - org.sqlite.SQLiteException: [SQLITE_ERROR] SQL error or missing database (near "(": syntax error)
+17 Mar 2022 11:24:55,603 TRACE repository.dataBaze.RepositoryDBClient 108 save - Exit
+17 Mar 2022 11:24:55,604 TRACE repository.dataBaze.RepositoryDBClient 61 findAll - Enter Finding task
+17 Mar 2022 11:24:55,604 TRACE utils.JDBCUtils 33 getConnection - Enter
+17 Mar 2022 11:24:55,604 TRACE utils.JDBCUtils 37 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@c430e6c)
+17 Mar 2022 11:24:55,604 ERROR repository.dataBaze.RepositoryDBClient 81 findAll - org.sqlite.SQLiteException: [SQLITE_ERROR] SQL error or missing database (incomplete input)
+17 Mar 2022 11:24:55,604 TRACE repository.dataBaze.RepositoryDBClient 83 findAll - Exit
+17 Mar 2022 11:26:46,092 INFO  repository.dataBaze.RepositoryDBClient 25 <init> - Initialising RaceDBRepository with properties: {jdbc.url=jdbc:sqlite:D:/mpp-proiect-repository-DobroiuAnamaria/FlightsCompany.db}
+17 Mar 2022 11:27:21,909 TRACE repository.dataBaze.RepositoryDBClient 94 save - Enter Saving client Client{firstNameClient='Marin', firstNameTourist='Rares', lastNameClient='Costel', lastNameTourist='Alex', addressClient='Matei Basarab', numberOfPlace=2}
+17 Mar 2022 11:27:21,909 TRACE utils.JDBCUtils 33 getConnection - Enter
+17 Mar 2022 11:27:21,910 TRACE utils.JDBCUtils 44 getNewConnection - Enter
+17 Mar 2022 11:27:21,910 INFO  utils.JDBCUtils 49 getNewConnection - Trying to connect to database ... jdbc:sqlite:D:/mpp-proiect-repository-DobroiuAnamaria/FlightsCompany.db
+17 Mar 2022 11:27:21,911 INFO  utils.JDBCUtils 50 getNewConnection - Username: null
+17 Mar 2022 11:27:21,912 INFO  utils.JDBCUtils 51 getNewConnection - Password: null
+17 Mar 2022 11:27:22,796 TRACE utils.JDBCUtils 37 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@312aa7c)
+17 Mar 2022 11:27:22,805 ERROR repository.dataBaze.RepositoryDBClient 106 save - org.sqlite.SQLiteException: [SQLITE_ERROR] SQL error or missing database (near "(": syntax error)
+17 Mar 2022 11:27:22,806 TRACE repository.dataBaze.RepositoryDBClient 108 save - Exit
+17 Mar 2022 11:28:17,687 INFO  repository.dataBaze.RepositoryDBClient 25 <init> - Initialising RaceDBRepository with properties: {jdbc.url=jdbc:sqlite:D:/mpp-proiect-repository-DobroiuAnamaria/FlightsCompany.db}
+17 Mar 2022 11:28:17,696 TRACE repository.dataBaze.RepositoryDBClient 94 save - Enter Saving client Client{firstNameClient='Marin', firstNameTourist='Rares', lastNameClient='Costel', lastNameTourist='Alex', addressClient='Matei Basarab', numberOfPlace=2}
+17 Mar 2022 11:28:17,696 TRACE utils.JDBCUtils 33 getConnection - Enter
+17 Mar 2022 11:28:17,697 TRACE utils.JDBCUtils 44 getNewConnection - Enter
+17 Mar 2022 11:28:17,697 INFO  utils.JDBCUtils 49 getNewConnection - Trying to connect to database ... jdbc:sqlite:D:/mpp-proiect-repository-DobroiuAnamaria/FlightsCompany.db
+17 Mar 2022 11:28:17,697 INFO  utils.JDBCUtils 50 getNewConnection - Username: null
+17 Mar 2022 11:28:17,697 INFO  utils.JDBCUtils 51 getNewConnection - Password: null
+17 Mar 2022 11:28:17,883 TRACE utils.JDBCUtils 37 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@c430e6c)
+17 Mar 2022 11:28:17,886 ERROR repository.dataBaze.RepositoryDBClient 106 save - org.sqlite.SQLiteException: [SQLITE_ERROR] SQL error or missing database (near "(": syntax error)
+17 Mar 2022 11:28:17,886 TRACE repository.dataBaze.RepositoryDBClient 108 save - Exit
+17 Mar 2022 11:28:17,887 TRACE repository.dataBaze.RepositoryDBClient 61 findAll - Enter Finding task
+17 Mar 2022 11:28:17,887 TRACE utils.JDBCUtils 33 getConnection - Enter
+17 Mar 2022 11:28:17,887 TRACE utils.JDBCUtils 37 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@c430e6c)
+17 Mar 2022 11:28:17,888 ERROR repository.dataBaze.RepositoryDBClient 81 findAll - org.sqlite.SQLiteException: [SQLITE_ERROR] SQL error or missing database (no such table: Client)
+17 Mar 2022 11:28:17,888 TRACE repository.dataBaze.RepositoryDBClient 83 findAll - Exit
+17 Mar 2022 11:29:05,244 INFO  repository.dataBaze.RepositoryDBClient 25 <init> - Initialising RaceDBRepository with properties: {jdbc.url=jdbc:sqlite:D:/mpp-proiect-repository-DobroiuAnamaria/FlightsCompany.db}
+17 Mar 2022 11:29:05,311 TRACE repository.dataBaze.RepositoryDBClient 94 save - Enter Saving client Client{firstNameClient='Marin', firstNameTourist='Rares', lastNameClient='Costel', lastNameTourist='Alex', addressClient='Matei Basarab', numberOfPlace=2}
+17 Mar 2022 11:29:05,312 TRACE utils.JDBCUtils 33 getConnection - Enter
+17 Mar 2022 11:29:05,312 TRACE utils.JDBCUtils 44 getNewConnection - Enter
+17 Mar 2022 11:29:05,313 INFO  utils.JDBCUtils 49 getNewConnection - Trying to connect to database ... jdbc:sqlite:D:/mpp-proiect-repository-DobroiuAnamaria/FlightsCompany.db
+17 Mar 2022 11:29:05,313 INFO  utils.JDBCUtils 50 getNewConnection - Username: null
+17 Mar 2022 11:29:05,314 INFO  utils.JDBCUtils 51 getNewConnection - Password: null
+17 Mar 2022 11:29:05,539 TRACE utils.JDBCUtils 37 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@312aa7c)
+17 Mar 2022 11:29:05,543 ERROR repository.dataBaze.RepositoryDBClient 106 save - org.sqlite.SQLiteException: [SQLITE_ERROR] SQL error or missing database (near "(": syntax error)
+17 Mar 2022 11:29:05,544 TRACE repository.dataBaze.RepositoryDBClient 108 save - Exit
+17 Mar 2022 11:29:14,496 TRACE repository.dataBaze.RepositoryDBClient 61 findAll - Enter Finding task
+17 Mar 2022 11:29:19,293 TRACE utils.JDBCUtils 33 getConnection - Enter
+17 Mar 2022 11:29:19,294 TRACE utils.JDBCUtils 37 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@312aa7c)
+17 Mar 2022 11:37:33,829 INFO  repository.dataBaze.RepositoryDBClient 25 <init> - Initialising RaceDBRepository with properties: {jdbc.url=jdbc:sqlite:D:/mpp-proiect-repository-DobroiuAnamaria/FlightsCompany.db}
+17 Mar 2022 11:37:33,844 TRACE repository.dataBaze.RepositoryDBClient 94 save - Enter Saving client Client{firstNameClient='Marin', firstNameTourist='Rares', lastNameClient='Costel', lastNameTourist='Alex', addressClient='Matei Basarab', numberOfPlace=2}
+17 Mar 2022 11:37:33,844 TRACE utils.JDBCUtils 33 getConnection - Enter
+17 Mar 2022 11:37:33,844 TRACE utils.JDBCUtils 44 getNewConnection - Enter
+17 Mar 2022 11:37:33,845 INFO  utils.JDBCUtils 49 getNewConnection - Trying to connect to database ... jdbc:sqlite:D:/mpp-proiect-repository-DobroiuAnamaria/FlightsCompany.db
+17 Mar 2022 11:37:33,847 INFO  utils.JDBCUtils 50 getNewConnection - Username: null
+17 Mar 2022 11:37:33,850 INFO  utils.JDBCUtils 51 getNewConnection - Password: null
+17 Mar 2022 11:37:34,092 TRACE utils.JDBCUtils 37 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@c430e6c)
+17 Mar 2022 11:37:34,095 ERROR repository.dataBaze.RepositoryDBClient 106 save - org.sqlite.SQLiteException: [SQLITE_ERROR] SQL error or missing database (near "(": syntax error)
+17 Mar 2022 11:37:34,095 TRACE repository.dataBaze.RepositoryDBClient 108 save - Exit
+17 Mar 2022 11:37:34,095 TRACE repository.dataBaze.RepositoryDBClient 61 findAll - Enter Finding task
+17 Mar 2022 11:37:34,095 TRACE utils.JDBCUtils 33 getConnection - Enter
+17 Mar 2022 11:37:34,096 TRACE utils.JDBCUtils 37 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@c430e6c)
+17 Mar 2022 11:37:34,096 ERROR repository.dataBaze.RepositoryDBClient 81 findAll - org.sqlite.SQLiteException: [SQLITE_ERROR] SQL error or missing database (no such table: Client)
+17 Mar 2022 11:37:34,096 TRACE repository.dataBaze.RepositoryDBClient 83 findAll - Exit
+17 Mar 2022 11:38:13,140 INFO  repository.dataBaze.RepositoryDBClient 25 <init> - Initialising RaceDBRepository with properties: {jdbc.url=jdbc:sqlite:D:/mpp-proiect-repository-DobroiuAnamaria/FlightsCompany.db}
+17 Mar 2022 11:38:13,152 TRACE repository.dataBaze.RepositoryDBClient 94 save - Enter Saving client Client{firstNameClient='Marin', firstNameTourist='Rares', lastNameClient='Costel', lastNameTourist='Alex', addressClient='Matei Basarab', numberOfPlace=2}
+17 Mar 2022 11:38:13,152 TRACE utils.JDBCUtils 33 getConnection - Enter
+17 Mar 2022 11:38:13,152 TRACE utils.JDBCUtils 44 getNewConnection - Enter
+17 Mar 2022 11:38:13,152 INFO  utils.JDBCUtils 49 getNewConnection - Trying to connect to database ... jdbc:sqlite:D:/mpp-proiect-repository-DobroiuAnamaria/FlightsCompany.db
+17 Mar 2022 11:38:13,153 INFO  utils.JDBCUtils 50 getNewConnection - Username: null
+17 Mar 2022 11:38:13,153 INFO  utils.JDBCUtils 51 getNewConnection - Password: null
+17 Mar 2022 11:38:13,337 TRACE utils.JDBCUtils 37 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@c430e6c)
+17 Mar 2022 11:38:13,340 ERROR repository.dataBaze.RepositoryDBClient 106 save - org.sqlite.SQLiteException: [SQLITE_ERROR] SQL error or missing database (near "(": syntax error)
+17 Mar 2022 11:38:13,340 TRACE repository.dataBaze.RepositoryDBClient 108 save - Exit
+17 Mar 2022 11:38:13,340 TRACE repository.dataBaze.RepositoryDBClient 61 findAll - Enter Finding task
+17 Mar 2022 11:38:13,340 TRACE utils.JDBCUtils 33 getConnection - Enter
+17 Mar 2022 11:38:13,341 TRACE utils.JDBCUtils 37 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@c430e6c)
+17 Mar 2022 11:38:13,341 TRACE repository.dataBaze.RepositoryDBClient 78 findAll - Exit: Found 0 instances
+17 Mar 2022 11:38:13,341 TRACE repository.dataBaze.RepositoryDBClient 83 findAll - Exit
+17 Mar 2022 11:39:40,157 INFO  repository.dataBaze.RepositoryDBClient 25 <init> - Initialising RaceDBRepository with properties: {jdbc.url=jdbc:sqlite:D:/mpp-proiect-repository-DobroiuAnamaria/FlightsCompany.db}
+17 Mar 2022 11:39:40,169 TRACE repository.dataBaze.RepositoryDBClient 94 save - Enter Saving client Client{firstNameClient='Marin', firstNameTourist='Rares', lastNameClient='Costel', lastNameTourist='Alex', addressClient='Matei Basarab', numberOfPlace=2}
+17 Mar 2022 11:39:40,169 TRACE utils.JDBCUtils 33 getConnection - Enter
+17 Mar 2022 11:39:40,170 TRACE utils.JDBCUtils 44 getNewConnection - Enter
+17 Mar 2022 11:39:40,170 INFO  utils.JDBCUtils 49 getNewConnection - Trying to connect to database ... jdbc:sqlite:D:/mpp-proiect-repository-DobroiuAnamaria/FlightsCompany.db
+17 Mar 2022 11:39:40,170 INFO  utils.JDBCUtils 50 getNewConnection - Username: null
+17 Mar 2022 11:39:40,170 INFO  utils.JDBCUtils 51 getNewConnection - Password: null
+17 Mar 2022 11:39:40,382 TRACE utils.JDBCUtils 37 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@c430e6c)
+17 Mar 2022 11:39:40,385 ERROR repository.dataBaze.RepositoryDBClient 106 save - org.sqlite.SQLiteException: [SQLITE_ERROR] SQL error or missing database (table Client has no column named addressClient)
+17 Mar 2022 11:39:40,386 TRACE repository.dataBaze.RepositoryDBClient 108 save - Exit
+17 Mar 2022 11:39:40,386 TRACE repository.dataBaze.RepositoryDBClient 61 findAll - Enter Finding task
+17 Mar 2022 11:39:40,386 TRACE utils.JDBCUtils 33 getConnection - Enter
+17 Mar 2022 11:39:40,386 TRACE utils.JDBCUtils 37 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@c430e6c)
+17 Mar 2022 11:39:40,387 TRACE repository.dataBaze.RepositoryDBClient 78 findAll - Exit: Found 0 instances
+17 Mar 2022 11:39:40,387 TRACE repository.dataBaze.RepositoryDBClient 83 findAll - Exit
+17 Mar 2022 11:40:17,353 INFO  repository.dataBaze.RepositoryDBClient 25 <init> - Initialising RaceDBRepository with properties: {jdbc.url=jdbc:sqlite:D:/mpp-proiect-repository-DobroiuAnamaria/FlightsCompany.db}
+17 Mar 2022 11:40:17,362 TRACE repository.dataBaze.RepositoryDBClient 94 save - Enter Saving client Client{firstNameClient='Marin', firstNameTourist='Rares', lastNameClient='Costel', lastNameTourist='Alex', addressClient='Matei Basarab', numberOfPlace=2}
+17 Mar 2022 11:40:17,363 TRACE utils.JDBCUtils 33 getConnection - Enter
+17 Mar 2022 11:40:17,363 TRACE utils.JDBCUtils 44 getNewConnection - Enter
+17 Mar 2022 11:40:17,363 INFO  utils.JDBCUtils 49 getNewConnection - Trying to connect to database ... jdbc:sqlite:D:/mpp-proiect-repository-DobroiuAnamaria/FlightsCompany.db
+17 Mar 2022 11:40:17,363 INFO  utils.JDBCUtils 50 getNewConnection - Username: null
+17 Mar 2022 11:40:17,364 INFO  utils.JDBCUtils 51 getNewConnection - Password: null
+17 Mar 2022 11:40:17,604 TRACE utils.JDBCUtils 37 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@c430e6c)
+17 Mar 2022 11:40:17,607 ERROR repository.dataBaze.RepositoryDBClient 106 save - org.sqlite.SQLiteException: [SQLITE_ERROR] SQL error or missing database (table Client has no column named addressClient)
+17 Mar 2022 11:40:17,607 TRACE repository.dataBaze.RepositoryDBClient 108 save - Exit
+17 Mar 2022 11:40:17,607 TRACE repository.dataBaze.RepositoryDBClient 61 findAll - Enter Finding task
+17 Mar 2022 11:40:17,607 TRACE utils.JDBCUtils 33 getConnection - Enter
+17 Mar 2022 11:40:17,608 TRACE utils.JDBCUtils 37 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@c430e6c)
+17 Mar 2022 11:40:17,608 TRACE repository.dataBaze.RepositoryDBClient 78 findAll - Exit: Found 0 instances
+17 Mar 2022 11:40:17,609 TRACE repository.dataBaze.RepositoryDBClient 83 findAll - Exit
+17 Mar 2022 11:40:27,508 INFO  repository.dataBaze.RepositoryDBClient 25 <init> - Initialising RaceDBRepository with properties: {jdbc.url=jdbc:sqlite:D:/mpp-proiect-repository-DobroiuAnamaria/FlightsCompany.db}
+17 Mar 2022 11:40:27,518 TRACE repository.dataBaze.RepositoryDBClient 94 save - Enter Saving client Client{firstNameClient='Marin', firstNameTourist='Rares', lastNameClient='Costel', lastNameTourist='Alex', addressClient='Matei Basarab', numberOfPlace=2}
+17 Mar 2022 11:40:27,518 TRACE utils.JDBCUtils 33 getConnection - Enter
+17 Mar 2022 11:40:27,518 TRACE utils.JDBCUtils 44 getNewConnection - Enter
+17 Mar 2022 11:40:27,519 INFO  utils.JDBCUtils 49 getNewConnection - Trying to connect to database ... jdbc:sqlite:D:/mpp-proiect-repository-DobroiuAnamaria/FlightsCompany.db
+17 Mar 2022 11:40:27,519 INFO  utils.JDBCUtils 50 getNewConnection - Username: null
+17 Mar 2022 11:40:27,519 INFO  utils.JDBCUtils 51 getNewConnection - Password: null
+17 Mar 2022 11:40:27,681 TRACE utils.JDBCUtils 37 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@c430e6c)
+17 Mar 2022 11:40:27,684 ERROR repository.dataBaze.RepositoryDBClient 106 save - org.sqlite.SQLiteException: [SQLITE_ERROR] SQL error or missing database (table Client has no column named addressClient)
+17 Mar 2022 11:40:27,684 TRACE repository.dataBaze.RepositoryDBClient 108 save - Exit
+17 Mar 2022 11:40:27,685 TRACE repository.dataBaze.RepositoryDBClient 61 findAll - Enter Finding task
+17 Mar 2022 11:40:27,685 TRACE utils.JDBCUtils 33 getConnection - Enter
+17 Mar 2022 11:40:27,685 TRACE utils.JDBCUtils 37 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@c430e6c)
+17 Mar 2022 11:40:27,685 TRACE repository.dataBaze.RepositoryDBClient 78 findAll - Exit: Found 0 instances
+17 Mar 2022 11:40:27,686 TRACE repository.dataBaze.RepositoryDBClient 83 findAll - Exit
+17 Mar 2022 11:42:20,115 INFO  repository.dataBaze.RepositoryDBClient 25 <init> - Initialising RaceDBRepository with properties: {jdbc.url=jdbc:sqlite:D:/mpp-proiect-repository-DobroiuAnamaria/FlightsCompany.db}
+17 Mar 2022 11:42:20,127 TRACE repository.dataBaze.RepositoryDBClient 94 save - Enter Saving client Client{firstNameClient='Marin', firstNameTourist='Rares', lastNameClient='Costel', lastNameTourist='Alex', addressClient='Matei Basarab', numberOfPlace=2}
+17 Mar 2022 11:42:20,127 TRACE utils.JDBCUtils 33 getConnection - Enter
+17 Mar 2022 11:42:20,128 TRACE utils.JDBCUtils 44 getNewConnection - Enter
+17 Mar 2022 11:42:20,128 INFO  utils.JDBCUtils 49 getNewConnection - Trying to connect to database ... jdbc:sqlite:D:/mpp-proiect-repository-DobroiuAnamaria/FlightsCompany.db
+17 Mar 2022 11:42:20,128 INFO  utils.JDBCUtils 50 getNewConnection - Username: null
+17 Mar 2022 11:42:20,128 INFO  utils.JDBCUtils 51 getNewConnection - Password: null
+17 Mar 2022 11:42:20,320 TRACE utils.JDBCUtils 37 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@c430e6c)
+17 Mar 2022 11:42:20,325 TRACE repository.dataBaze.RepositoryDBClient 104 save - Exit: Saved 1 instances
+17 Mar 2022 11:42:20,326 TRACE repository.dataBaze.RepositoryDBClient 108 save - Exit
+17 Mar 2022 11:42:20,326 TRACE repository.dataBaze.RepositoryDBClient 61 findAll - Enter Finding task
+17 Mar 2022 11:42:20,326 TRACE utils.JDBCUtils 33 getConnection - Enter
+17 Mar 2022 11:42:20,327 TRACE utils.JDBCUtils 37 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@c430e6c)
+17 Mar 2022 11:42:20,328 ERROR repository.dataBaze.RepositoryDBClient 81 findAll - java.sql.SQLException: no such column: 'FirstName'
+17 Mar 2022 11:42:20,328 TRACE repository.dataBaze.RepositoryDBClient 83 findAll - Exit
+17 Mar 2022 11:43:13,261 INFO  repository.dataBaze.RepositoryDBClient 25 <init> - Initialising RaceDBRepository with properties: {jdbc.url=jdbc:sqlite:D:/mpp-proiect-repository-DobroiuAnamaria/FlightsCompany.db}
+17 Mar 2022 11:43:13,272 TRACE repository.dataBaze.RepositoryDBClient 94 save - Enter Saving client Client{firstNameClient='Marin', firstNameTourist='Rares', lastNameClient='Costel', lastNameTourist='Alex', addressClient='Matei Basarab', numberOfPlace=2}
+17 Mar 2022 11:43:13,273 TRACE utils.JDBCUtils 33 getConnection - Enter
+17 Mar 2022 11:43:13,273 TRACE utils.JDBCUtils 44 getNewConnection - Enter
+17 Mar 2022 11:43:13,273 INFO  utils.JDBCUtils 49 getNewConnection - Trying to connect to database ... jdbc:sqlite:D:/mpp-proiect-repository-DobroiuAnamaria/FlightsCompany.db
+17 Mar 2022 11:43:13,273 INFO  utils.JDBCUtils 50 getNewConnection - Username: null
+17 Mar 2022 11:43:13,274 INFO  utils.JDBCUtils 51 getNewConnection - Password: null
+17 Mar 2022 11:43:13,477 TRACE utils.JDBCUtils 37 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@c430e6c)
+17 Mar 2022 11:43:13,486 TRACE repository.dataBaze.RepositoryDBClient 104 save - Exit: Saved 1 instances
+17 Mar 2022 11:43:13,486 TRACE repository.dataBaze.RepositoryDBClient 108 save - Exit
+17 Mar 2022 11:43:13,487 TRACE repository.dataBaze.RepositoryDBClient 61 findAll - Enter Finding task
+17 Mar 2022 11:43:13,487 TRACE utils.JDBCUtils 33 getConnection - Enter
+17 Mar 2022 11:43:13,487 TRACE utils.JDBCUtils 37 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@c430e6c)
+17 Mar 2022 11:43:13,488 ERROR repository.dataBaze.RepositoryDBClient 81 findAll - java.sql.SQLException: no such column: 'FistNameTourist'
+17 Mar 2022 11:43:13,489 TRACE repository.dataBaze.RepositoryDBClient 83 findAll - Exit
+17 Mar 2022 11:43:35,825 INFO  repository.dataBaze.RepositoryDBClient 25 <init> - Initialising RaceDBRepository with properties: {jdbc.url=jdbc:sqlite:D:/mpp-proiect-repository-DobroiuAnamaria/FlightsCompany.db}
+17 Mar 2022 11:43:35,835 TRACE repository.dataBaze.RepositoryDBClient 94 save - Enter Saving client Client{firstNameClient='Marin', firstNameTourist='Rares', lastNameClient='Costel', lastNameTourist='Alex', addressClient='Matei Basarab', numberOfPlace=2}
+17 Mar 2022 11:43:35,835 TRACE utils.JDBCUtils 33 getConnection - Enter
+17 Mar 2022 11:43:35,835 TRACE utils.JDBCUtils 44 getNewConnection - Enter
+17 Mar 2022 11:43:35,836 INFO  utils.JDBCUtils 49 getNewConnection - Trying to connect to database ... jdbc:sqlite:D:/mpp-proiect-repository-DobroiuAnamaria/FlightsCompany.db
+17 Mar 2022 11:43:35,836 INFO  utils.JDBCUtils 50 getNewConnection - Username: null
+17 Mar 2022 11:43:35,836 INFO  utils.JDBCUtils 51 getNewConnection - Password: null
+17 Mar 2022 11:43:35,999 TRACE utils.JDBCUtils 37 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@c430e6c)
+17 Mar 2022 11:43:36,004 TRACE repository.dataBaze.RepositoryDBClient 104 save - Exit: Saved 1 instances
+17 Mar 2022 11:43:36,005 TRACE repository.dataBaze.RepositoryDBClient 108 save - Exit
+17 Mar 2022 11:43:36,005 TRACE repository.dataBaze.RepositoryDBClient 61 findAll - Enter Finding task
+17 Mar 2022 11:43:36,005 TRACE utils.JDBCUtils 33 getConnection - Enter
+17 Mar 2022 11:43:36,005 TRACE utils.JDBCUtils 37 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@c430e6c)
+17 Mar 2022 11:43:36,006 TRACE repository.dataBaze.RepositoryDBClient 78 findAll - Exit: Found 3 instances
+17 Mar 2022 11:43:36,006 TRACE repository.dataBaze.RepositoryDBClient 83 findAll - Exit
+17 Mar 2022 17:46:47,453 INFO  repository.dataBaze.RepositoryDBClient 25 <init> - Initialising RaceDBRepository with properties: {jdbc.url=jdbc:sqlite:D:/mpp-proiect-repository-DobroiuAnamaria/FlightsCompany.db}
+17 Mar 2022 17:46:47,473 TRACE repository.dataBaze.RepositoryDBClient 94 save - Enter Saving client Client{firstNameClient='Marin', firstNameTourist='Rares', lastNameClient='Costel', lastNameTourist='Alex', addressClient='Matei Basarab', numberOfPlace=2}
+17 Mar 2022 17:46:47,474 TRACE utils.JDBCUtils 33 getConnection - Enter
+17 Mar 2022 17:46:47,474 TRACE utils.JDBCUtils 44 getNewConnection - Enter
+17 Mar 2022 17:46:47,474 INFO  utils.JDBCUtils 49 getNewConnection - Trying to connect to database ... jdbc:sqlite:D:/mpp-proiect-repository-DobroiuAnamaria/FlightsCompany.db
+17 Mar 2022 17:46:47,475 INFO  utils.JDBCUtils 50 getNewConnection - Username: null
+17 Mar 2022 17:46:47,476 INFO  utils.JDBCUtils 51 getNewConnection - Password: null
+17 Mar 2022 17:46:47,780 TRACE utils.JDBCUtils 37 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@c430e6c)
+17 Mar 2022 17:46:47,789 TRACE repository.dataBaze.RepositoryDBClient 104 save - Exit: Saved 1 instances
+17 Mar 2022 17:46:47,789 TRACE repository.dataBaze.RepositoryDBClient 108 save - Exit
+17 Mar 2022 17:46:47,790 TRACE repository.dataBaze.RepositoryDBClient 61 findAll - Enter Finding task
+17 Mar 2022 17:46:47,790 TRACE utils.JDBCUtils 33 getConnection - Enter
+17 Mar 2022 17:46:47,790 TRACE utils.JDBCUtils 37 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@c430e6c)
+17 Mar 2022 17:46:47,791 TRACE repository.dataBaze.RepositoryDBClient 78 findAll - Exit: Found 4 instances
+17 Mar 2022 17:46:47,792 TRACE repository.dataBaze.RepositoryDBClient 83 findAll - Exit
+17 Mar 2022 17:55:43,806 INFO  repository.dataBaze.RepositoryDBClient 25 <init> - Initialising RaceDBRepository with properties: {jdbc.url=jdbc:sqlite:D:/mpp-proiect-repository-DobroiuAnamaria/FlightsCompany.db}
+17 Mar 2022 17:55:43,823 TRACE repository.dataBaze.RepositoryDBClient 94 save - Enter Saving client The Client's dates: Fist name:Marin'| Last name:Costel
+ | Tourist dates:First nameRares' |Last name:Alex' |Address:Matei Basarab
+ |Number of places:2}
+17 Mar 2022 17:55:43,823 TRACE utils.JDBCUtils 33 getConnection - Enter
+17 Mar 2022 17:55:43,824 TRACE utils.JDBCUtils 44 getNewConnection - Enter
+17 Mar 2022 17:55:43,824 INFO  utils.JDBCUtils 49 getNewConnection - Trying to connect to database ... jdbc:sqlite:D:/mpp-proiect-repository-DobroiuAnamaria/FlightsCompany.db
+17 Mar 2022 17:55:43,824 INFO  utils.JDBCUtils 50 getNewConnection - Username: null
+17 Mar 2022 17:55:43,825 INFO  utils.JDBCUtils 51 getNewConnection - Password: null
+17 Mar 2022 17:55:44,165 TRACE utils.JDBCUtils 37 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@c430e6c)
+17 Mar 2022 17:55:44,173 TRACE repository.dataBaze.RepositoryDBClient 104 save - Exit: Saved 1 instances
+17 Mar 2022 17:55:44,173 TRACE repository.dataBaze.RepositoryDBClient 108 save - Exit
+17 Mar 2022 17:55:44,174 TRACE repository.dataBaze.RepositoryDBClient 61 findAll - Enter Finding task
+17 Mar 2022 17:55:44,175 TRACE utils.JDBCUtils 33 getConnection - Enter
+17 Mar 2022 17:55:44,175 TRACE utils.JDBCUtils 37 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@c430e6c)
+17 Mar 2022 17:55:44,177 TRACE repository.dataBaze.RepositoryDBClient 78 findAll - Exit: Found 5 instances
+17 Mar 2022 17:55:44,177 TRACE repository.dataBaze.RepositoryDBClient 83 findAll - Exit
+17 Mar 2022 17:56:42,712 INFO  repository.dataBaze.RepositoryDBClient 25 <init> - Initialising RaceDBRepository with properties: {jdbc.url=jdbc:sqlite:D:/mpp-proiect-repository-DobroiuAnamaria/FlightsCompany.db}
+17 Mar 2022 17:56:42,731 TRACE repository.dataBaze.RepositoryDBClient 94 save - Enter Saving client The Client's dates: Fist name:Marin| Last name:Costel
+ | Tourist dates:First nameRares' |Last name:Alex
+ |Address:Matei Basarab
+ |Number of places:2}
+17 Mar 2022 17:56:42,732 TRACE utils.JDBCUtils 33 getConnection - Enter
+17 Mar 2022 17:56:42,732 TRACE utils.JDBCUtils 44 getNewConnection - Enter
+17 Mar 2022 17:56:42,732 INFO  utils.JDBCUtils 49 getNewConnection - Trying to connect to database ... jdbc:sqlite:D:/mpp-proiect-repository-DobroiuAnamaria/FlightsCompany.db
+17 Mar 2022 17:56:42,733 INFO  utils.JDBCUtils 50 getNewConnection - Username: null
+17 Mar 2022 17:56:42,733 INFO  utils.JDBCUtils 51 getNewConnection - Password: null
+17 Mar 2022 17:56:43,086 TRACE utils.JDBCUtils 37 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@c430e6c)
+17 Mar 2022 17:56:43,098 TRACE repository.dataBaze.RepositoryDBClient 104 save - Exit: Saved 1 instances
+17 Mar 2022 17:56:43,098 TRACE repository.dataBaze.RepositoryDBClient 108 save - Exit
+17 Mar 2022 17:56:43,099 TRACE repository.dataBaze.RepositoryDBClient 61 findAll - Enter Finding task
+17 Mar 2022 17:56:43,099 TRACE utils.JDBCUtils 33 getConnection - Enter
+17 Mar 2022 17:56:43,100 TRACE utils.JDBCUtils 37 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@c430e6c)
+17 Mar 2022 17:56:43,102 TRACE repository.dataBaze.RepositoryDBClient 78 findAll - Exit: Found 6 instances
+17 Mar 2022 17:56:43,102 TRACE repository.dataBaze.RepositoryDBClient 83 findAll - Exit
+17 Mar 2022 17:57:09,572 INFO  repository.dataBaze.RepositoryDBClient 25 <init> - Initialising RaceDBRepository with properties: {jdbc.url=jdbc:sqlite:D:/mpp-proiect-repository-DobroiuAnamaria/FlightsCompany.db}
+17 Mar 2022 17:57:09,589 TRACE repository.dataBaze.RepositoryDBClient 94 save - Enter Saving client The Client's dates: Fist name:Marin| Last name:Costel
+The Tourist dates:First nameRares' |Last name:Alex
+ |Address:Matei Basarab
+ |Number of places:2}
+17 Mar 2022 17:57:09,590 TRACE utils.JDBCUtils 33 getConnection - Enter
+17 Mar 2022 17:57:09,590 TRACE utils.JDBCUtils 44 getNewConnection - Enter
+17 Mar 2022 17:57:09,590 INFO  utils.JDBCUtils 49 getNewConnection - Trying to connect to database ... jdbc:sqlite:D:/mpp-proiect-repository-DobroiuAnamaria/FlightsCompany.db
+17 Mar 2022 17:57:09,591 INFO  utils.JDBCUtils 50 getNewConnection - Username: null
+17 Mar 2022 17:57:09,591 INFO  utils.JDBCUtils 51 getNewConnection - Password: null
+17 Mar 2022 17:57:09,871 TRACE utils.JDBCUtils 37 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@c430e6c)
+17 Mar 2022 17:57:09,879 TRACE repository.dataBaze.RepositoryDBClient 104 save - Exit: Saved 1 instances
+17 Mar 2022 17:57:09,879 TRACE repository.dataBaze.RepositoryDBClient 108 save - Exit
+17 Mar 2022 17:57:09,879 TRACE repository.dataBaze.RepositoryDBClient 61 findAll - Enter Finding task
+17 Mar 2022 17:57:09,880 TRACE utils.JDBCUtils 33 getConnection - Enter
+17 Mar 2022 17:57:09,880 TRACE utils.JDBCUtils 37 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@c430e6c)
+17 Mar 2022 17:57:09,881 TRACE repository.dataBaze.RepositoryDBClient 78 findAll - Exit: Found 7 instances
+17 Mar 2022 17:57:09,882 TRACE repository.dataBaze.RepositoryDBClient 83 findAll - Exit
+17 Mar 2022 18:15:32,539 INFO  repository.dataBaze.RepositoryDBClient 25 <init> - Initialising RaceDBRepository with properties: {jdbc.url=jdbc:sqlite:D:/mpp-proiect-repository-DobroiuAnamaria/FlightsCompany.db}
+17 Mar 2022 18:15:32,556 TRACE repository.dataBaze.RepositoryDBClient 94 save - Enter Saving client The Client's dates: Fist name:Marin| Last name:Costel
+The Tourist dates:First nameRares |Last name:Alex
+ |Address:Matei Basarab
+ |Number of places:2}
+17 Mar 2022 18:15:32,556 TRACE utils.JDBCUtils 33 getConnection - Enter
+17 Mar 2022 18:15:32,557 TRACE utils.JDBCUtils 44 getNewConnection - Enter
+17 Mar 2022 18:15:32,557 INFO  utils.JDBCUtils 49 getNewConnection - Trying to connect to database ... jdbc:sqlite:D:/mpp-proiect-repository-DobroiuAnamaria/FlightsCompany.db
+17 Mar 2022 18:15:32,558 INFO  utils.JDBCUtils 50 getNewConnection - Username: null
+17 Mar 2022 18:15:32,558 INFO  utils.JDBCUtils 51 getNewConnection - Password: null
+17 Mar 2022 18:15:32,833 TRACE utils.JDBCUtils 37 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@c430e6c)
+17 Mar 2022 18:15:32,842 TRACE repository.dataBaze.RepositoryDBClient 104 save - Exit: Saved 1 instances
+17 Mar 2022 18:15:32,842 TRACE repository.dataBaze.RepositoryDBClient 108 save - Exit
+17 Mar 2022 18:15:32,843 TRACE repository.dataBaze.RepositoryDBClient 61 findAll - Enter Finding task
+17 Mar 2022 18:15:32,843 TRACE utils.JDBCUtils 33 getConnection - Enter
+17 Mar 2022 18:15:32,843 TRACE utils.JDBCUtils 37 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@c430e6c)
+17 Mar 2022 18:15:32,845 TRACE repository.dataBaze.RepositoryDBClient 78 findAll - Exit: Found 8 instances
+17 Mar 2022 18:15:32,845 TRACE repository.dataBaze.RepositoryDBClient 83 findAll - Exit
+17 Mar 2022 18:15:32,846 INFO  repository.dataBaze.RepositoryDBFlight 24 <init> - Initialising RaceDBRepository with properties: {jdbc.url=jdbc:sqlite:D:/mpp-proiect-repository-DobroiuAnamaria/FlightsCompany.db}
+17 Mar 2022 18:15:32,848 TRACE repository.dataBaze.RepositoryDBFlight 89 save - Enter Saving client Flight{destiantion='Maldive', arrival='France', dateDeparture='12.09.2022', timeDeparture='11:50', airport='Barceo', numberOfplace=200}
+17 Mar 2022 18:15:32,848 TRACE utils.JDBCUtils 33 getConnection - Enter
+17 Mar 2022 18:15:32,848 TRACE utils.JDBCUtils 44 getNewConnection - Enter
+17 Mar 2022 18:15:32,849 INFO  utils.JDBCUtils 49 getNewConnection - Trying to connect to database ... jdbc:sqlite:D:/mpp-proiect-repository-DobroiuAnamaria/FlightsCompany.db
+17 Mar 2022 18:15:32,849 INFO  utils.JDBCUtils 50 getNewConnection - Username: null
+17 Mar 2022 18:15:32,849 INFO  utils.JDBCUtils 51 getNewConnection - Password: null
+17 Mar 2022 18:15:32,851 TRACE utils.JDBCUtils 37 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@4007f65e)
+17 Mar 2022 18:15:32,855 TRACE repository.dataBaze.RepositoryDBFlight 99 save - Exit: Saved 1 instances
+17 Mar 2022 18:15:32,856 TRACE repository.dataBaze.RepositoryDBFlight 103 save - Exit
+17 Mar 2022 18:15:32,856 TRACE repository.dataBaze.RepositoryDBFlight 60 findAll - Enter Finding task
+17 Mar 2022 18:15:32,857 TRACE utils.JDBCUtils 33 getConnection - Enter
+17 Mar 2022 18:15:32,857 TRACE utils.JDBCUtils 37 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@4007f65e)
+17 Mar 2022 18:15:32,858 TRACE repository.dataBaze.RepositoryDBFlight 77 findAll - Exit: Found 1 instances
+17 Mar 2022 18:15:32,858 TRACE repository.dataBaze.RepositoryDBFlight 82 findAll - Exit
+17 Mar 2022 18:20:27,131 INFO  repository.dataBaze.RepositoryDBClient 25 <init> - Initialising RaceDBRepository with properties: {jdbc.url=jdbc:sqlite:D:/mpp-proiect-repository-DobroiuAnamaria/FlightsCompany.db}
+17 Mar 2022 18:20:27,149 TRACE repository.dataBaze.RepositoryDBClient 94 save - Enter Saving client The Client's dates: Fist name:Marin| Last name:Costel
+The Tourist dates:First nameRares |Last name:Alex
+ |Address:Matei Basarab
+ |Number of places:2}
+17 Mar 2022 18:20:27,149 TRACE utils.JDBCUtils 33 getConnection - Enter
+17 Mar 2022 18:20:27,149 TRACE utils.JDBCUtils 44 getNewConnection - Enter
+17 Mar 2022 18:20:27,150 INFO  utils.JDBCUtils 49 getNewConnection - Trying to connect to database ... jdbc:sqlite:D:/mpp-proiect-repository-DobroiuAnamaria/FlightsCompany.db
+17 Mar 2022 18:20:27,150 INFO  utils.JDBCUtils 50 getNewConnection - Username: null
+17 Mar 2022 18:20:27,151 INFO  utils.JDBCUtils 51 getNewConnection - Password: null
+17 Mar 2022 18:20:27,415 TRACE utils.JDBCUtils 37 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@c430e6c)
+17 Mar 2022 18:20:27,423 TRACE repository.dataBaze.RepositoryDBClient 104 save - Exit: Saved 1 instances
+17 Mar 2022 18:20:27,423 TRACE repository.dataBaze.RepositoryDBClient 108 save - Exit
+17 Mar 2022 18:20:27,424 TRACE repository.dataBaze.RepositoryDBClient 61 findAll - Enter Finding task
+17 Mar 2022 18:20:27,424 TRACE utils.JDBCUtils 33 getConnection - Enter
+17 Mar 2022 18:20:27,424 TRACE utils.JDBCUtils 37 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@c430e6c)
+17 Mar 2022 18:20:27,426 TRACE repository.dataBaze.RepositoryDBClient 78 findAll - Exit: Found 9 instances
+17 Mar 2022 18:20:27,426 TRACE repository.dataBaze.RepositoryDBClient 83 findAll - Exit
+17 Mar 2022 18:20:27,427 INFO  repository.dataBaze.RepositoryDBFlight 24 <init> - Initialising RaceDBRepository with properties: {jdbc.url=jdbc:sqlite:D:/mpp-proiect-repository-DobroiuAnamaria/FlightsCompany.db}
+17 Mar 2022 18:20:27,430 TRACE repository.dataBaze.RepositoryDBFlight 89 save - Enter Saving client the flight's dates:Departure: Maldive | Arrival: France | Date of departure: 12.09.2022 | Time of departure: 11:50 | Airport: Barceo | Number of place :200}
+17 Mar 2022 18:20:27,431 TRACE utils.JDBCUtils 33 getConnection - Enter
+17 Mar 2022 18:20:27,431 TRACE utils.JDBCUtils 44 getNewConnection - Enter
+17 Mar 2022 18:20:27,431 INFO  utils.JDBCUtils 49 getNewConnection - Trying to connect to database ... jdbc:sqlite:D:/mpp-proiect-repository-DobroiuAnamaria/FlightsCompany.db
+17 Mar 2022 18:20:27,432 INFO  utils.JDBCUtils 50 getNewConnection - Username: null
+17 Mar 2022 18:20:27,432 INFO  utils.JDBCUtils 51 getNewConnection - Password: null
+17 Mar 2022 18:20:27,433 TRACE utils.JDBCUtils 37 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@4007f65e)
+17 Mar 2022 18:20:27,438 TRACE repository.dataBaze.RepositoryDBFlight 99 save - Exit: Saved 1 instances
+17 Mar 2022 18:20:27,439 TRACE repository.dataBaze.RepositoryDBFlight 103 save - Exit
+17 Mar 2022 18:20:27,439 TRACE repository.dataBaze.RepositoryDBFlight 60 findAll - Enter Finding task
+17 Mar 2022 18:20:27,439 TRACE utils.JDBCUtils 33 getConnection - Enter
+17 Mar 2022 18:20:27,440 TRACE utils.JDBCUtils 37 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@4007f65e)
+17 Mar 2022 18:20:27,440 TRACE repository.dataBaze.RepositoryDBFlight 77 findAll - Exit: Found 2 instances
+17 Mar 2022 18:20:27,441 TRACE repository.dataBaze.RepositoryDBFlight 82 findAll - Exit
+17 Mar 2022 18:21:49,167 INFO  repository.dataBaze.RepositoryDBClient 25 <init> - Initialising RaceDBRepository with properties: {jdbc.url=jdbc:sqlite:D:/mpp-proiect-repository-DobroiuAnamaria/FlightsCompany.db}
+17 Mar 2022 18:21:49,184 TRACE repository.dataBaze.RepositoryDBClient 94 save - Enter Saving client The Client's dates: Fist name:Marin| Last name:Costel
+The Tourist dates:First nameRares |Last name:Alex
+ |Address:Matei Basarab
+ |Number of places:2
+17 Mar 2022 18:21:49,184 TRACE utils.JDBCUtils 33 getConnection - Enter
+17 Mar 2022 18:21:49,185 TRACE utils.JDBCUtils 44 getNewConnection - Enter
+17 Mar 2022 18:21:49,185 INFO  utils.JDBCUtils 49 getNewConnection - Trying to connect to database ... jdbc:sqlite:D:/mpp-proiect-repository-DobroiuAnamaria/FlightsCompany.db
+17 Mar 2022 18:21:49,185 INFO  utils.JDBCUtils 50 getNewConnection - Username: null
+17 Mar 2022 18:21:49,186 INFO  utils.JDBCUtils 51 getNewConnection - Password: null
+17 Mar 2022 18:21:49,479 TRACE utils.JDBCUtils 37 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@c430e6c)
+17 Mar 2022 18:21:49,486 TRACE repository.dataBaze.RepositoryDBClient 104 save - Exit: Saved 1 instances
+17 Mar 2022 18:21:49,487 TRACE repository.dataBaze.RepositoryDBClient 108 save - Exit
+17 Mar 2022 18:21:49,487 TRACE repository.dataBaze.RepositoryDBClient 61 findAll - Enter Finding task
+17 Mar 2022 18:21:49,488 TRACE utils.JDBCUtils 33 getConnection - Enter
+17 Mar 2022 18:21:49,488 TRACE utils.JDBCUtils 37 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@c430e6c)
+17 Mar 2022 18:21:49,489 TRACE repository.dataBaze.RepositoryDBClient 78 findAll - Exit: Found 10 instances
+17 Mar 2022 18:21:49,490 TRACE repository.dataBaze.RepositoryDBClient 83 findAll - Exit
+17 Mar 2022 18:21:49,492 INFO  repository.dataBaze.RepositoryDBFlight 24 <init> - Initialising RaceDBRepository with properties: {jdbc.url=jdbc:sqlite:D:/mpp-proiect-repository-DobroiuAnamaria/FlightsCompany.db}
+17 Mar 2022 18:21:49,494 TRACE repository.dataBaze.RepositoryDBFlight 89 save - Enter Saving client the flight's dates:Departure: Maldive | Arrival: France
+| Date of departure: 12.09.2022 | Time of departure: 11:50 | Airport: Barceo
+| Number of place :200}
+17 Mar 2022 18:21:49,494 TRACE utils.JDBCUtils 33 getConnection - Enter
+17 Mar 2022 18:21:49,495 TRACE utils.JDBCUtils 44 getNewConnection - Enter
+17 Mar 2022 18:21:49,495 INFO  utils.JDBCUtils 49 getNewConnection - Trying to connect to database ... jdbc:sqlite:D:/mpp-proiect-repository-DobroiuAnamaria/FlightsCompany.db
+17 Mar 2022 18:21:49,496 INFO  utils.JDBCUtils 50 getNewConnection - Username: null
+17 Mar 2022 18:21:49,496 INFO  utils.JDBCUtils 51 getNewConnection - Password: null
+17 Mar 2022 18:21:49,497 TRACE utils.JDBCUtils 37 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@4007f65e)
+17 Mar 2022 18:21:49,501 TRACE repository.dataBaze.RepositoryDBFlight 99 save - Exit: Saved 1 instances
+17 Mar 2022 18:21:49,501 TRACE repository.dataBaze.RepositoryDBFlight 103 save - Exit
+17 Mar 2022 18:21:49,502 TRACE repository.dataBaze.RepositoryDBFlight 60 findAll - Enter Finding task
+17 Mar 2022 18:21:49,502 TRACE utils.JDBCUtils 33 getConnection - Enter
+17 Mar 2022 18:21:49,502 TRACE utils.JDBCUtils 37 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@4007f65e)
+17 Mar 2022 18:21:49,503 TRACE repository.dataBaze.RepositoryDBFlight 77 findAll - Exit: Found 3 instances
+17 Mar 2022 18:21:49,503 TRACE repository.dataBaze.RepositoryDBFlight 82 findAll - Exit
+17 Mar 2022 21:28:30,557 INFO  repository.dataBaze.RepositoryDBClient 25 <init> - Initialising RaceDBRepository with properties: {jdbc.url=jdbc:sqlite:D:/mpp-proiect-repository-DobroiuAnamaria/FlightsCompany.db}
+17 Mar 2022 21:28:30,567 TRACE repository.dataBaze.RepositoryDBClient 94 save - Enter Saving client The Client's dates: Fist name:Marin| Last name:Costel
+The Tourist dates:First nameRares |Last name:Alex
+ |Address:Matei Basarab
+ |Number of places:2
+17 Mar 2022 21:28:30,568 TRACE utils.JDBCUtils 33 getConnection - Enter
+17 Mar 2022 21:28:30,568 TRACE utils.JDBCUtils 44 getNewConnection - Enter
+17 Mar 2022 21:28:30,568 INFO  utils.JDBCUtils 49 getNewConnection - Trying to connect to database ... jdbc:sqlite:D:/mpp-proiect-repository-DobroiuAnamaria/FlightsCompany.db
+17 Mar 2022 21:28:30,568 INFO  utils.JDBCUtils 50 getNewConnection - Username: null
+17 Mar 2022 21:28:30,569 INFO  utils.JDBCUtils 51 getNewConnection - Password: null
+17 Mar 2022 21:28:30,908 TRACE utils.JDBCUtils 37 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@c430e6c)
+17 Mar 2022 21:28:30,913 TRACE repository.dataBaze.RepositoryDBClient 104 save - Exit: Saved 1 instances
+17 Mar 2022 21:28:30,913 TRACE repository.dataBaze.RepositoryDBClient 108 save - Exit
+17 Mar 2022 21:28:30,913 TRACE repository.dataBaze.RepositoryDBClient 61 findAll - Enter Finding task
+17 Mar 2022 21:28:30,914 TRACE utils.JDBCUtils 33 getConnection - Enter
+17 Mar 2022 21:28:30,914 TRACE utils.JDBCUtils 37 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@c430e6c)
+17 Mar 2022 21:28:30,915 TRACE repository.dataBaze.RepositoryDBClient 78 findAll - Exit: Found 11 instances
+17 Mar 2022 21:28:30,915 TRACE repository.dataBaze.RepositoryDBClient 83 findAll - Exit
+17 Mar 2022 21:28:30,916 INFO  repository.dataBaze.RepositoryDBFlight 24 <init> - Initialising RaceDBRepository with properties: {jdbc.url=jdbc:sqlite:D:/mpp-proiect-repository-DobroiuAnamaria/FlightsCompany.db}
+17 Mar 2022 21:28:30,917 TRACE repository.dataBaze.RepositoryDBFlight 89 save - Enter Saving client the flight's dates:Departure: Maldive | Arrival: France
+| Date of departure: 12.09.2022 | Time of departure: 11:50 | Airport: Barceo
+| Number of place :200}
+17 Mar 2022 21:28:30,918 TRACE utils.JDBCUtils 33 getConnection - Enter
+17 Mar 2022 21:28:30,918 TRACE utils.JDBCUtils 44 getNewConnection - Enter
+17 Mar 2022 21:28:30,918 INFO  utils.JDBCUtils 49 getNewConnection - Trying to connect to database ... jdbc:sqlite:D:/mpp-proiect-repository-DobroiuAnamaria/FlightsCompany.db
+17 Mar 2022 21:28:30,918 INFO  utils.JDBCUtils 50 getNewConnection - Username: null
+17 Mar 2022 21:28:30,919 INFO  utils.JDBCUtils 51 getNewConnection - Password: null
+17 Mar 2022 21:28:30,920 TRACE utils.JDBCUtils 37 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@4007f65e)
+17 Mar 2022 21:28:30,924 TRACE repository.dataBaze.RepositoryDBFlight 99 save - Exit: Saved 1 instances
+17 Mar 2022 21:28:30,926 TRACE repository.dataBaze.RepositoryDBFlight 103 save - Exit
+17 Mar 2022 21:28:30,926 TRACE repository.dataBaze.RepositoryDBFlight 60 findAll - Enter Finding task
+17 Mar 2022 21:28:30,926 TRACE utils.JDBCUtils 33 getConnection - Enter
+17 Mar 2022 21:28:30,927 TRACE utils.JDBCUtils 37 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@4007f65e)
+17 Mar 2022 21:28:30,927 TRACE repository.dataBaze.RepositoryDBFlight 77 findAll - Exit: Found 4 instances
+17 Mar 2022 21:28:30,927 TRACE repository.dataBaze.RepositoryDBFlight 82 findAll - Exit
+18 Mar 2022 09:55:28,519 INFO  repository.dataBaze.RepositoryDBClient 25 <init> - Initialising RaceDBRepository with properties: {jdbc.url=jdbc:sqlite:D:/mpp-proiect-repository-DobroiuAnamaria/FlightsCompany.db}
+18 Mar 2022 09:55:28,560 TRACE repository.dataBaze.RepositoryDBClient 94 save - Enter Saving client The Client's dates: Fist name:Marin| Last name:Costel
+The Tourist dates:First nameRares |Last name:Alex
+ |Address:Matei Basarab
+ |Number of places:2
+18 Mar 2022 09:55:28,560 TRACE utils.JDBCUtils 33 getConnection - Enter
+18 Mar 2022 09:55:28,561 TRACE utils.JDBCUtils 44 getNewConnection - Enter
+18 Mar 2022 09:55:28,561 INFO  utils.JDBCUtils 49 getNewConnection - Trying to connect to database ... jdbc:sqlite:D:/mpp-proiect-repository-DobroiuAnamaria/FlightsCompany.db
+18 Mar 2022 09:55:28,562 INFO  utils.JDBCUtils 50 getNewConnection - Username: null
+18 Mar 2022 09:55:28,563 INFO  utils.JDBCUtils 51 getNewConnection - Password: null
+18 Mar 2022 09:55:29,039 TRACE utils.JDBCUtils 37 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@c430e6c)
+18 Mar 2022 09:55:29,047 TRACE repository.dataBaze.RepositoryDBClient 104 save - Exit: Saved 1 instances
+18 Mar 2022 09:55:29,048 TRACE repository.dataBaze.RepositoryDBClient 108 save - Exit
+18 Mar 2022 09:55:29,048 TRACE repository.dataBaze.RepositoryDBClient 61 findAll - Enter Finding task
+18 Mar 2022 09:55:29,049 TRACE utils.JDBCUtils 33 getConnection - Enter
+18 Mar 2022 09:55:29,049 TRACE utils.JDBCUtils 37 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@c430e6c)
+18 Mar 2022 09:55:29,050 TRACE repository.dataBaze.RepositoryDBClient 78 findAll - Exit: Found 12 instances
+18 Mar 2022 09:55:29,051 TRACE repository.dataBaze.RepositoryDBClient 83 findAll - Exit
+18 Mar 2022 09:55:29,053 INFO  repository.dataBaze.RepositoryDBFlight 24 <init> - Initialising RaceDBRepository with properties: {jdbc.url=jdbc:sqlite:D:/mpp-proiect-repository-DobroiuAnamaria/FlightsCompany.db}
+18 Mar 2022 09:55:29,066 TRACE repository.dataBaze.RepositoryDBFlight 89 save - Enter Saving client the flight's dates:Departure: Maldive | Arrival: France
+| Date of departure: 12.09.2022 | Time of departure: 11:50 | Airport: Barceo
+| Number of place :200}
+18 Mar 2022 09:55:29,067 TRACE utils.JDBCUtils 33 getConnection - Enter
+18 Mar 2022 09:55:29,067 TRACE utils.JDBCUtils 44 getNewConnection - Enter
+18 Mar 2022 09:55:29,067 INFO  utils.JDBCUtils 49 getNewConnection - Trying to connect to database ... jdbc:sqlite:D:/mpp-proiect-repository-DobroiuAnamaria/FlightsCompany.db
+18 Mar 2022 09:55:29,068 INFO  utils.JDBCUtils 50 getNewConnection - Username: null
+18 Mar 2022 09:55:29,068 INFO  utils.JDBCUtils 51 getNewConnection - Password: null
+18 Mar 2022 09:55:29,070 TRACE utils.JDBCUtils 37 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@4007f65e)
+18 Mar 2022 09:55:29,075 TRACE repository.dataBaze.RepositoryDBFlight 99 save - Exit: Saved 1 instances
+18 Mar 2022 09:55:29,075 TRACE repository.dataBaze.RepositoryDBFlight 103 save - Exit
+18 Mar 2022 09:55:29,076 TRACE repository.dataBaze.RepositoryDBFlight 60 findAll - Enter Finding task
+18 Mar 2022 09:55:29,076 TRACE utils.JDBCUtils 33 getConnection - Enter
+18 Mar 2022 09:55:29,076 TRACE utils.JDBCUtils 37 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@4007f65e)
+18 Mar 2022 09:55:29,078 TRACE repository.dataBaze.RepositoryDBFlight 77 findAll - Exit: Found 5 instances
+18 Mar 2022 09:55:29,078 TRACE repository.dataBaze.RepositoryDBFlight 82 findAll - Exit
+18 Mar 2022 13:16:17,954 INFO  repository.dataBaze.RepositoryDBClient 25 <init> - Initialising RaceDBRepository with properties: {jdbc.url=jdbc:sqlite:D:/mpp-proiect-repository-DobroiuAnamaria/FlightsCompany.db}
+18 Mar 2022 13:16:17,966 TRACE repository.dataBaze.RepositoryDBClient 94 save - Enter Saving client The Client's dates: Fist name:Marin| Last name:Costel
+The Tourist dates:First nameRares |Last name:Alex
+ |Address:Matei Basarab
+ |Number of places:2
+18 Mar 2022 13:16:17,966 TRACE utils.JDBCUtils 33 getConnection - Enter
+18 Mar 2022 13:16:17,966 TRACE utils.JDBCUtils 44 getNewConnection - Enter
+18 Mar 2022 13:16:17,967 INFO  utils.JDBCUtils 49 getNewConnection - Trying to connect to database ... jdbc:sqlite:D:/mpp-proiect-repository-DobroiuAnamaria/FlightsCompany.db
+18 Mar 2022 13:16:17,967 INFO  utils.JDBCUtils 50 getNewConnection - Username: null
+18 Mar 2022 13:16:17,967 INFO  utils.JDBCUtils 51 getNewConnection - Password: null
+18 Mar 2022 13:16:18,276 TRACE utils.JDBCUtils 37 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@c430e6c)
+18 Mar 2022 13:16:18,281 TRACE repository.dataBaze.RepositoryDBClient 104 save - Exit: Saved 1 instances
+18 Mar 2022 13:16:18,281 TRACE repository.dataBaze.RepositoryDBClient 108 save - Exit
+18 Mar 2022 13:16:18,281 TRACE repository.dataBaze.RepositoryDBClient 61 findAll - Enter Finding task
+18 Mar 2022 13:16:18,282 TRACE utils.JDBCUtils 33 getConnection - Enter
+18 Mar 2022 13:16:18,282 TRACE utils.JDBCUtils 37 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@c430e6c)
+18 Mar 2022 13:16:18,283 TRACE repository.dataBaze.RepositoryDBClient 78 findAll - Exit: Found 13 instances
+18 Mar 2022 13:16:18,283 TRACE repository.dataBaze.RepositoryDBClient 83 findAll - Exit
+18 Mar 2022 13:16:18,284 INFO  repository.dataBaze.RepositoryDBFlight 24 <init> - Initialising RaceDBRepository with properties: {jdbc.url=jdbc:sqlite:D:/mpp-proiect-repository-DobroiuAnamaria/FlightsCompany.db}
+18 Mar 2022 13:16:18,285 TRACE repository.dataBaze.RepositoryDBFlight 89 save - Enter Saving client the flight's dates:Departure: Maldive | Arrival: France
+| Date of departure: 12.09.2022 | Time of departure: 11:50 | Airport: Barceo
+| Number of place :200}
+18 Mar 2022 13:16:18,285 TRACE utils.JDBCUtils 33 getConnection - Enter
+18 Mar 2022 13:16:18,285 TRACE utils.JDBCUtils 44 getNewConnection - Enter
+18 Mar 2022 13:16:18,286 INFO  utils.JDBCUtils 49 getNewConnection - Trying to connect to database ... jdbc:sqlite:D:/mpp-proiect-repository-DobroiuAnamaria/FlightsCompany.db
+18 Mar 2022 13:16:18,286 INFO  utils.JDBCUtils 50 getNewConnection - Username: null
+18 Mar 2022 13:16:18,287 INFO  utils.JDBCUtils 51 getNewConnection - Password: null
+18 Mar 2022 13:16:18,289 TRACE utils.JDBCUtils 37 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@4007f65e)
+18 Mar 2022 13:16:18,293 TRACE repository.dataBaze.RepositoryDBFlight 99 save - Exit: Saved 1 instances
+18 Mar 2022 13:16:18,293 TRACE repository.dataBaze.RepositoryDBFlight 103 save - Exit
+18 Mar 2022 13:16:18,293 TRACE repository.dataBaze.RepositoryDBFlight 60 findAll - Enter Finding task
+18 Mar 2022 13:16:18,293 TRACE utils.JDBCUtils 33 getConnection - Enter
+18 Mar 2022 13:16:18,293 TRACE utils.JDBCUtils 37 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@4007f65e)
+18 Mar 2022 13:16:18,294 TRACE repository.dataBaze.RepositoryDBFlight 77 findAll - Exit: Found 6 instances
+18 Mar 2022 13:16:18,294 TRACE repository.dataBaze.RepositoryDBFlight 82 findAll - Exit
+30 Mar 2022 20:01:43,064 INFO  repository.dataBaze.RepositoryDBClient 25 <init> - Initialising RaceDBRepository with properties: {jdbc.url=jdbc:sqlite:D:/mpp-proiect-repository-DobroiuAnamaria/FlightsCompany.db}
+30 Mar 2022 20:01:43,076 TRACE repository.dataBaze.RepositoryDBClient 98 save - Enter Saving client Client{username='djjdd', password='jsdjjdj', firstNameClient='Marin', firstNameTourist='Rares', lastNameClient='Costel', lastNameTourist='Alex', addressClient='Matei Basarab', numberOfPlace=2}
+30 Mar 2022 20:01:43,076 TRACE utils.JDBCUtils 33 getConnection - Enter
+30 Mar 2022 20:01:43,076 TRACE utils.JDBCUtils 44 getNewConnection - Enter
+30 Mar 2022 20:01:43,077 INFO  utils.JDBCUtils 49 getNewConnection - Trying to connect to database ... jdbc:sqlite:D:/mpp-proiect-repository-DobroiuAnamaria/FlightsCompany.db
+30 Mar 2022 20:01:43,077 INFO  utils.JDBCUtils 50 getNewConnection - Username: null
+30 Mar 2022 20:01:43,077 INFO  utils.JDBCUtils 51 getNewConnection - Password: null
+30 Mar 2022 20:01:43,310 TRACE utils.JDBCUtils 37 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@6f53b8a)
+30 Mar 2022 20:01:43,314 ERROR repository.dataBaze.RepositoryDBClient 112 save - org.sqlite.SQLiteException: [SQLITE_ERROR] SQL error or missing database (table Client has no column named Userneme)
+30 Mar 2022 20:01:43,315 TRACE repository.dataBaze.RepositoryDBClient 114 save - Exit
+30 Mar 2022 20:01:43,315 TRACE repository.dataBaze.RepositoryDBClient 63 findAll - Enter Finding task
+30 Mar 2022 20:01:43,315 TRACE utils.JDBCUtils 33 getConnection - Enter
+30 Mar 2022 20:01:43,316 TRACE utils.JDBCUtils 37 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@6f53b8a)
+30 Mar 2022 20:01:43,317 TRACE repository.dataBaze.RepositoryDBClient 82 findAll - Exit: Found 13 instances
+30 Mar 2022 20:01:43,317 TRACE repository.dataBaze.RepositoryDBClient 87 findAll - Exit
+30 Mar 2022 20:01:43,318 INFO  repository.dataBaze.RepositoryDBFlight 24 <init> - Initialising RaceDBRepository with properties: {jdbc.url=jdbc:sqlite:D:/mpp-proiect-repository-DobroiuAnamaria/FlightsCompany.db}
+30 Mar 2022 20:01:43,325 TRACE repository.dataBaze.RepositoryDBFlight 89 save - Enter Saving client the flight's dates:Departure: Maldive | Arrival: France
+| Date of departure: 12.09.2022 | Time of departure: 11:50 | Airport: Barceo
+| Number of place :200}
+30 Mar 2022 20:01:43,326 TRACE utils.JDBCUtils 33 getConnection - Enter
+30 Mar 2022 20:01:43,326 TRACE utils.JDBCUtils 44 getNewConnection - Enter
+30 Mar 2022 20:01:43,326 INFO  utils.JDBCUtils 49 getNewConnection - Trying to connect to database ... jdbc:sqlite:D:/mpp-proiect-repository-DobroiuAnamaria/FlightsCompany.db
+30 Mar 2022 20:01:43,327 INFO  utils.JDBCUtils 50 getNewConnection - Username: null
+30 Mar 2022 20:01:43,327 INFO  utils.JDBCUtils 51 getNewConnection - Password: null
+30 Mar 2022 20:01:43,328 TRACE utils.JDBCUtils 37 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@5b7a7f33)
+30 Mar 2022 20:01:43,331 TRACE repository.dataBaze.RepositoryDBFlight 99 save - Exit: Saved 1 instances
+30 Mar 2022 20:01:43,331 TRACE repository.dataBaze.RepositoryDBFlight 103 save - Exit
+30 Mar 2022 20:01:43,331 TRACE repository.dataBaze.RepositoryDBFlight 60 findAll - Enter Finding task
+30 Mar 2022 20:01:43,332 TRACE utils.JDBCUtils 33 getConnection - Enter
+30 Mar 2022 20:01:43,332 TRACE utils.JDBCUtils 37 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@5b7a7f33)
+30 Mar 2022 20:01:43,332 TRACE repository.dataBaze.RepositoryDBFlight 77 findAll - Exit: Found 7 instances
+30 Mar 2022 20:01:43,333 TRACE repository.dataBaze.RepositoryDBFlight 82 findAll - Exit
+31 Mar 2022 18:17:00,831 INFO  repository.dataBaze.RepositoryDBClient 25 <init> - Initialising RaceDBRepository with properties: {jdbc.url=jdbc:sqlite:D:/mpp-proiect-repository-DobroiuAnamaria/FlightsCompany.db}
+31 Mar 2022 18:17:00,849 TRACE repository.dataBaze.RepositoryDBClient 98 save - Enter Saving client Client{username='djjdd', password='jsdjjdj', firstNameClient='Marin', firstNameTourist='Rares', lastNameClient='Costel', lastNameTourist='Alex', addressClient='Matei Basarab', numberOfPlace=2}
+31 Mar 2022 18:17:00,850 TRACE utils.JDBCUtils 33 getConnection - Enter
+31 Mar 2022 18:17:00,850 TRACE utils.JDBCUtils 44 getNewConnection - Enter
+31 Mar 2022 18:17:00,850 INFO  utils.JDBCUtils 49 getNewConnection - Trying to connect to database ... jdbc:sqlite:D:/mpp-proiect-repository-DobroiuAnamaria/FlightsCompany.db
+31 Mar 2022 18:17:00,851 INFO  utils.JDBCUtils 50 getNewConnection - Username: null
+31 Mar 2022 18:17:00,852 INFO  utils.JDBCUtils 51 getNewConnection - Password: null
+31 Mar 2022 18:17:01,228 TRACE utils.JDBCUtils 37 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@6f53b8a)
+31 Mar 2022 18:17:01,238 ERROR repository.dataBaze.RepositoryDBClient 112 save - org.sqlite.SQLiteException: [SQLITE_ERROR] SQL error or missing database (table Client has no column named Userneme)
+31 Mar 2022 18:17:01,238 TRACE repository.dataBaze.RepositoryDBClient 114 save - Exit
+31 Mar 2022 18:17:01,239 TRACE repository.dataBaze.RepositoryDBClient 63 findAll - Enter Finding task
+31 Mar 2022 18:17:01,240 TRACE utils.JDBCUtils 33 getConnection - Enter
+31 Mar 2022 18:17:01,240 TRACE utils.JDBCUtils 37 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@6f53b8a)
+31 Mar 2022 18:17:01,242 TRACE repository.dataBaze.RepositoryDBClient 82 findAll - Exit: Found 13 instances
+31 Mar 2022 18:17:01,243 TRACE repository.dataBaze.RepositoryDBClient 87 findAll - Exit
+31 Mar 2022 18:17:01,248 INFO  repository.dataBaze.RepositoryDBFlight 24 <init> - Initialising RaceDBRepository with properties: {jdbc.url=jdbc:sqlite:D:/mpp-proiect-repository-DobroiuAnamaria/FlightsCompany.db}
+31 Mar 2022 18:17:01,260 TRACE repository.dataBaze.RepositoryDBFlight 89 save - Enter Saving client the flight's dates:Departure: Maldive | Arrival: France
+| Date of departure: 12.09.2022 | Time of departure: 11:50 | Airport: Barceo
+| Number of place :200}
+31 Mar 2022 18:17:01,260 TRACE utils.JDBCUtils 33 getConnection - Enter
+31 Mar 2022 18:17:01,261 TRACE utils.JDBCUtils 44 getNewConnection - Enter
+31 Mar 2022 18:17:01,261 INFO  utils.JDBCUtils 49 getNewConnection - Trying to connect to database ... jdbc:sqlite:D:/mpp-proiect-repository-DobroiuAnamaria/FlightsCompany.db
+31 Mar 2022 18:17:01,262 INFO  utils.JDBCUtils 50 getNewConnection - Username: null
+31 Mar 2022 18:17:01,263 INFO  utils.JDBCUtils 51 getNewConnection - Password: null
+31 Mar 2022 18:17:01,264 TRACE utils.JDBCUtils 37 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@5b7a7f33)
+31 Mar 2022 18:17:01,271 TRACE repository.dataBaze.RepositoryDBFlight 99 save - Exit: Saved 1 instances
+31 Mar 2022 18:17:01,271 TRACE repository.dataBaze.RepositoryDBFlight 103 save - Exit
+31 Mar 2022 18:17:01,272 TRACE repository.dataBaze.RepositoryDBFlight 60 findAll - Enter Finding task
+31 Mar 2022 18:17:01,272 TRACE utils.JDBCUtils 33 getConnection - Enter
+31 Mar 2022 18:17:01,273 TRACE utils.JDBCUtils 37 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@5b7a7f33)
+31 Mar 2022 18:17:01,276 TRACE repository.dataBaze.RepositoryDBFlight 77 findAll - Exit: Found 8 instances
+31 Mar 2022 18:17:01,276 TRACE repository.dataBaze.RepositoryDBFlight 82 findAll - Exit
+31 Mar 2022 18:17:01,281 INFO  repository.dataBaze.RepositoryDBRezervation 26 <init> - Initialising RepositoryDBReservation with properties: {jdbc.url=jdbc:sqlite:D:/mpp-proiect-repository-DobroiuAnamaria/FlightsCompany.db}
+31 Mar 2022 18:17:01,290 TRACE repository.dataBaze.RepositoryDBRezervation 91 save - Enter Saving task Rezervation{flight='Maldive', clientF='fjjfj', clientL='hdhd', numberOfPlace=200}
+31 Mar 2022 18:17:01,290 TRACE utils.JDBCUtils 33 getConnection - Enter
+31 Mar 2022 18:17:01,291 TRACE utils.JDBCUtils 44 getNewConnection - Enter
+31 Mar 2022 18:17:01,291 INFO  utils.JDBCUtils 49 getNewConnection - Trying to connect to database ... jdbc:sqlite:D:/mpp-proiect-repository-DobroiuAnamaria/FlightsCompany.db
+31 Mar 2022 18:17:01,291 INFO  utils.JDBCUtils 50 getNewConnection - Username: null
+31 Mar 2022 18:17:01,292 INFO  utils.JDBCUtils 51 getNewConnection - Password: null
+31 Mar 2022 18:17:01,293 TRACE utils.JDBCUtils 37 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@333d4a8c)
+31 Mar 2022 18:17:01,299 TRACE repository.dataBaze.RepositoryDBRezervation 99 save - Exit: Saved 1 instances
+31 Mar 2022 18:17:01,299 TRACE repository.dataBaze.RepositoryDBRezervation 103 save - Exit
+31 Mar 2022 18:17:01,300 TRACE repository.dataBaze.RepositoryDBFlight 60 findAll - Enter Finding task
+31 Mar 2022 18:17:01,300 TRACE utils.JDBCUtils 33 getConnection - Enter
+31 Mar 2022 18:17:01,300 TRACE utils.JDBCUtils 37 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@5b7a7f33)
+31 Mar 2022 18:17:01,301 TRACE repository.dataBaze.RepositoryDBFlight 77 findAll - Exit: Found 8 instances
+31 Mar 2022 18:17:01,302 TRACE repository.dataBaze.RepositoryDBFlight 82 findAll - Exit
+31 Mar 2022 19:12:53,987 INFO  repository.dataBaze.RepositoryDBClient 25 <init> - Initialising RaceDBRepository with properties: {jdbc.url=jdbc:sqlite:D:/mpp-proiect-repository-DobroiuAnamaria/FlightsCompany.db}
+31 Mar 2022 19:12:54,005 TRACE repository.dataBaze.RepositoryDBClient 98 save - Enter Saving client Client{username='djjdd', password='jsdjjdj', firstNameClient='Marin', firstNameTourist='Rares', lastNameClient='Costel', lastNameTourist='Alex', addressClient='Matei Basarab', numberOfPlace=2}
+31 Mar 2022 19:12:54,005 TRACE utils.JDBCUtils 33 getConnection - Enter
+31 Mar 2022 19:12:54,006 TRACE utils.JDBCUtils 44 getNewConnection - Enter
+31 Mar 2022 19:12:54,006 INFO  utils.JDBCUtils 49 getNewConnection - Trying to connect to database ... jdbc:sqlite:D:/mpp-proiect-repository-DobroiuAnamaria/FlightsCompany.db
+31 Mar 2022 19:12:54,007 INFO  utils.JDBCUtils 50 getNewConnection - Username: null
+31 Mar 2022 19:12:54,007 INFO  utils.JDBCUtils 51 getNewConnection - Password: null
+31 Mar 2022 19:12:54,347 TRACE utils.JDBCUtils 37 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@6f53b8a)
+31 Mar 2022 19:12:54,353 ERROR repository.dataBaze.RepositoryDBClient 112 save - org.sqlite.SQLiteException: [SQLITE_ERROR] SQL error or missing database (table Client has no column named Userneme)
+31 Mar 2022 19:12:54,353 TRACE repository.dataBaze.RepositoryDBClient 114 save - Exit
+31 Mar 2022 19:12:54,354 TRACE repository.dataBaze.RepositoryDBClient 63 findAll - Enter Finding task
+31 Mar 2022 19:12:54,354 TRACE utils.JDBCUtils 33 getConnection - Enter
+31 Mar 2022 19:12:54,354 TRACE utils.JDBCUtils 37 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@6f53b8a)
+31 Mar 2022 19:12:54,356 TRACE repository.dataBaze.RepositoryDBClient 82 findAll - Exit: Found 13 instances
+31 Mar 2022 19:12:54,357 TRACE repository.dataBaze.RepositoryDBClient 87 findAll - Exit
+31 Mar 2022 19:12:54,360 INFO  repository.dataBaze.RepositoryDBFlight 24 <init> - Initialising RaceDBRepository with properties: {jdbc.url=jdbc:sqlite:D:/mpp-proiect-repository-DobroiuAnamaria/FlightsCompany.db}
+31 Mar 2022 19:12:54,371 TRACE repository.dataBaze.RepositoryDBFlight 89 save - Enter Saving client the flight's dates:Departure: Maldive | Arrival: France
+| Date of departure: 12.09.2022 | Time of departure: 11:50 | Airport: Barceo
+| Number of place :200}
+31 Mar 2022 19:12:54,371 TRACE utils.JDBCUtils 33 getConnection - Enter
+31 Mar 2022 19:12:54,372 TRACE utils.JDBCUtils 44 getNewConnection - Enter
+31 Mar 2022 19:12:54,372 INFO  utils.JDBCUtils 49 getNewConnection - Trying to connect to database ... jdbc:sqlite:D:/mpp-proiect-repository-DobroiuAnamaria/FlightsCompany.db
+31 Mar 2022 19:12:54,373 INFO  utils.JDBCUtils 50 getNewConnection - Username: null
+31 Mar 2022 19:12:54,373 INFO  utils.JDBCUtils 51 getNewConnection - Password: null
+31 Mar 2022 19:12:54,375 TRACE utils.JDBCUtils 37 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@5b7a7f33)
+31 Mar 2022 19:12:54,380 TRACE repository.dataBaze.RepositoryDBFlight 99 save - Exit: Saved 1 instances
+31 Mar 2022 19:12:54,380 TRACE repository.dataBaze.RepositoryDBFlight 103 save - Exit
+31 Mar 2022 19:12:54,381 TRACE repository.dataBaze.RepositoryDBFlight 60 findAll - Enter Finding task
+31 Mar 2022 19:12:54,381 TRACE utils.JDBCUtils 33 getConnection - Enter
+31 Mar 2022 19:12:54,381 TRACE utils.JDBCUtils 37 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@5b7a7f33)
+31 Mar 2022 19:12:54,383 TRACE repository.dataBaze.RepositoryDBFlight 77 findAll - Exit: Found 9 instances
+31 Mar 2022 19:12:54,383 TRACE repository.dataBaze.RepositoryDBFlight 82 findAll - Exit
+31 Mar 2022 19:12:54,386 INFO  repository.dataBaze.RepositoryDBRezervation 26 <init> - Initialising RepositoryDBReservation with properties: {jdbc.url=jdbc:sqlite:D:/mpp-proiect-repository-DobroiuAnamaria/FlightsCompany.db}
+31 Mar 2022 19:12:54,391 TRACE repository.dataBaze.RepositoryDBRezervation 91 save - Enter Saving task Rezervation{flight='Maldive', clientF='fjjfj', clientL='hdhd', numberOfPlace=200}
+31 Mar 2022 19:12:54,392 TRACE utils.JDBCUtils 33 getConnection - Enter
+31 Mar 2022 19:12:54,392 TRACE utils.JDBCUtils 44 getNewConnection - Enter
+31 Mar 2022 19:12:54,393 INFO  utils.JDBCUtils 49 getNewConnection - Trying to connect to database ... jdbc:sqlite:D:/mpp-proiect-repository-DobroiuAnamaria/FlightsCompany.db
+31 Mar 2022 19:12:54,393 INFO  utils.JDBCUtils 50 getNewConnection - Username: null
+31 Mar 2022 19:12:54,394 INFO  utils.JDBCUtils 51 getNewConnection - Password: null
+31 Mar 2022 19:12:54,395 TRACE utils.JDBCUtils 37 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@333d4a8c)
+31 Mar 2022 19:12:54,400 TRACE repository.dataBaze.RepositoryDBRezervation 99 save - Exit: Saved 1 instances
+31 Mar 2022 19:12:54,401 TRACE repository.dataBaze.RepositoryDBRezervation 103 save - Exit
+31 Mar 2022 19:12:54,401 TRACE repository.dataBaze.RepositoryDBFlight 60 findAll - Enter Finding task
+31 Mar 2022 19:12:54,401 TRACE utils.JDBCUtils 33 getConnection - Enter
+31 Mar 2022 19:12:54,402 TRACE utils.JDBCUtils 37 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@5b7a7f33)
+31 Mar 2022 19:12:54,402 TRACE repository.dataBaze.RepositoryDBFlight 77 findAll - Exit: Found 9 instances
+31 Mar 2022 19:12:54,403 TRACE repository.dataBaze.RepositoryDBFlight 82 findAll - Exit
+31 Mar 2022 19:15:54,464 INFO  repository.dataBaze.RepositoryDBClient 25 <init> - Initialising RaceDBRepository with properties: {jdbc.url=jdbc:sqlite:D:/mpp-proiect-repository-DobroiuAnamaria/FlightsCompany.db}
+31 Mar 2022 19:15:54,487 TRACE repository.dataBaze.RepositoryDBClient 98 save - Enter Saving client Client{username='djjdd', password='jsdjjdj', firstNameClient='Marin', firstNameTourist='Rares', lastNameClient='Costel', lastNameTourist='Alex', addressClient='Matei Basarab', numberOfPlace=2}
+31 Mar 2022 19:15:54,488 TRACE utils.JDBCUtils 33 getConnection - Enter
+31 Mar 2022 19:15:54,488 TRACE utils.JDBCUtils 44 getNewConnection - Enter
+31 Mar 2022 19:15:54,489 INFO  utils.JDBCUtils 49 getNewConnection - Trying to connect to database ... jdbc:sqlite:D:/mpp-proiect-repository-DobroiuAnamaria/FlightsCompany.db
+31 Mar 2022 19:15:54,489 INFO  utils.JDBCUtils 50 getNewConnection - Username: null
+31 Mar 2022 19:15:54,490 INFO  utils.JDBCUtils 51 getNewConnection - Password: null
+31 Mar 2022 19:15:54,770 TRACE utils.JDBCUtils 37 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@6f53b8a)
+31 Mar 2022 19:15:54,775 ERROR repository.dataBaze.RepositoryDBClient 112 save - org.sqlite.SQLiteException: [SQLITE_ERROR] SQL error or missing database (table Client has no column named Userneme)
+31 Mar 2022 19:15:54,775 TRACE repository.dataBaze.RepositoryDBClient 114 save - Exit
+31 Mar 2022 19:15:54,776 TRACE repository.dataBaze.RepositoryDBClient 63 findAll - Enter Finding task
+31 Mar 2022 19:15:54,776 TRACE utils.JDBCUtils 33 getConnection - Enter
+31 Mar 2022 19:15:54,776 TRACE utils.JDBCUtils 37 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@6f53b8a)
+31 Mar 2022 19:15:54,779 TRACE repository.dataBaze.RepositoryDBClient 82 findAll - Exit: Found 13 instances
+31 Mar 2022 19:15:54,779 TRACE repository.dataBaze.RepositoryDBClient 87 findAll - Exit
+31 Mar 2022 19:15:54,782 INFO  repository.dataBaze.RepositoryDBFlight 24 <init> - Initialising RaceDBRepository with properties: {jdbc.url=jdbc:sqlite:D:/mpp-proiect-repository-DobroiuAnamaria/FlightsCompany.db}
+31 Mar 2022 19:15:54,792 TRACE repository.dataBaze.RepositoryDBFlight 89 save - Enter Saving client the flight's dates:Departure: Maldive | Arrival: France
+| Date of departure: 12.09.2022 | Time of departure: 11:50 | Airport: Barceo
+| Number of place :200}
+31 Mar 2022 19:15:54,792 TRACE utils.JDBCUtils 33 getConnection - Enter
+31 Mar 2022 19:15:54,792 TRACE utils.JDBCUtils 44 getNewConnection - Enter
+31 Mar 2022 19:15:54,793 INFO  utils.JDBCUtils 49 getNewConnection - Trying to connect to database ... jdbc:sqlite:D:/mpp-proiect-repository-DobroiuAnamaria/FlightsCompany.db
+31 Mar 2022 19:15:54,793 INFO  utils.JDBCUtils 50 getNewConnection - Username: null
+31 Mar 2022 19:15:54,794 INFO  utils.JDBCUtils 51 getNewConnection - Password: null
+31 Mar 2022 19:15:54,795 TRACE utils.JDBCUtils 37 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@5b7a7f33)
+31 Mar 2022 19:15:54,800 TRACE repository.dataBaze.RepositoryDBFlight 99 save - Exit: Saved 1 instances
+31 Mar 2022 19:15:54,801 TRACE repository.dataBaze.RepositoryDBFlight 103 save - Exit
+31 Mar 2022 19:15:54,801 TRACE repository.dataBaze.RepositoryDBFlight 60 findAll - Enter Finding task
+31 Mar 2022 19:15:54,802 TRACE utils.JDBCUtils 33 getConnection - Enter
+31 Mar 2022 19:15:54,802 TRACE utils.JDBCUtils 37 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@5b7a7f33)
+31 Mar 2022 19:15:54,804 TRACE repository.dataBaze.RepositoryDBFlight 77 findAll - Exit: Found 10 instances
+31 Mar 2022 19:15:54,804 TRACE repository.dataBaze.RepositoryDBFlight 82 findAll - Exit
+31 Mar 2022 19:15:54,807 INFO  repository.dataBaze.RepositoryDBRezervation 26 <init> - Initialising RepositoryDBReservation with properties: {jdbc.url=jdbc:sqlite:D:/mpp-proiect-repository-DobroiuAnamaria/FlightsCompany.db}
+31 Mar 2022 19:15:54,812 TRACE repository.dataBaze.RepositoryDBRezervation 91 save - Enter Saving task Rezervation{flight='Maldive', clientF='fjjfj', clientL='hdhd', numberOfPlace=200}
+31 Mar 2022 19:15:54,813 TRACE utils.JDBCUtils 33 getConnection - Enter
+31 Mar 2022 19:15:54,813 TRACE utils.JDBCUtils 44 getNewConnection - Enter
+31 Mar 2022 19:15:54,813 INFO  utils.JDBCUtils 49 getNewConnection - Trying to connect to database ... jdbc:sqlite:D:/mpp-proiect-repository-DobroiuAnamaria/FlightsCompany.db
+31 Mar 2022 19:15:54,814 INFO  utils.JDBCUtils 50 getNewConnection - Username: null
+31 Mar 2022 19:15:54,814 INFO  utils.JDBCUtils 51 getNewConnection - Password: null
+31 Mar 2022 19:15:54,815 TRACE utils.JDBCUtils 37 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@333d4a8c)
+31 Mar 2022 19:15:54,820 TRACE repository.dataBaze.RepositoryDBRezervation 99 save - Exit: Saved 1 instances
+31 Mar 2022 19:15:54,821 TRACE repository.dataBaze.RepositoryDBRezervation 103 save - Exit
+31 Mar 2022 19:15:54,821 TRACE repository.dataBaze.RepositoryDBFlight 60 findAll - Enter Finding task
+31 Mar 2022 19:15:54,821 TRACE utils.JDBCUtils 33 getConnection - Enter
+31 Mar 2022 19:15:54,821 TRACE utils.JDBCUtils 37 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@5b7a7f33)
+31 Mar 2022 19:15:54,822 TRACE repository.dataBaze.RepositoryDBFlight 77 findAll - Exit: Found 10 instances
+31 Mar 2022 19:15:54,822 TRACE repository.dataBaze.RepositoryDBFlight 82 findAll - Exit
+31 Mar 2022 19:17:28,463 INFO  repository.dataBaze.RepositoryDBClient 25 <init> - Initialising RaceDBRepository with properties: {jdbc.url=jdbc:sqlite:D:/mpp-proiect-repository-DobroiuAnamaria/FlightsCompany.db}
+31 Mar 2022 19:17:28,482 TRACE repository.dataBaze.RepositoryDBClient 98 save - Enter Saving client Client{username='djjdd', password='jsdjjdj', firstNameClient='Marin', firstNameTourist='Rares', lastNameClient='Costel', lastNameTourist='Alex', addressClient='Matei Basarab', numberOfPlace=2}
+31 Mar 2022 19:17:28,482 TRACE utils.JDBCUtils 33 getConnection - Enter
+31 Mar 2022 19:17:28,483 TRACE utils.JDBCUtils 44 getNewConnection - Enter
+31 Mar 2022 19:17:28,483 INFO  utils.JDBCUtils 49 getNewConnection - Trying to connect to database ... jdbc:sqlite:D:/mpp-proiect-repository-DobroiuAnamaria/FlightsCompany.db
+31 Mar 2022 19:17:28,484 INFO  utils.JDBCUtils 50 getNewConnection - Username: null
+31 Mar 2022 19:17:28,484 INFO  utils.JDBCUtils 51 getNewConnection - Password: null
+31 Mar 2022 19:17:28,751 TRACE utils.JDBCUtils 37 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@6f53b8a)
+31 Mar 2022 19:17:28,756 ERROR repository.dataBaze.RepositoryDBClient 112 save - org.sqlite.SQLiteException: [SQLITE_ERROR] SQL error or missing database (table Client has no column named Userneme)
+31 Mar 2022 19:17:28,757 TRACE repository.dataBaze.RepositoryDBClient 114 save - Exit
+31 Mar 2022 19:17:28,757 TRACE repository.dataBaze.RepositoryDBClient 63 findAll - Enter Finding task
+31 Mar 2022 19:17:28,757 TRACE utils.JDBCUtils 33 getConnection - Enter
+31 Mar 2022 19:17:28,758 TRACE utils.JDBCUtils 37 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@6f53b8a)
+31 Mar 2022 19:17:28,759 TRACE repository.dataBaze.RepositoryDBClient 82 findAll - Exit: Found 13 instances
+31 Mar 2022 19:17:28,760 TRACE repository.dataBaze.RepositoryDBClient 87 findAll - Exit
+31 Mar 2022 19:17:28,762 INFO  repository.dataBaze.RepositoryDBFlight 24 <init> - Initialising RaceDBRepository with properties: {jdbc.url=jdbc:sqlite:D:/mpp-proiect-repository-DobroiuAnamaria/FlightsCompany.db}
+31 Mar 2022 19:17:28,770 TRACE repository.dataBaze.RepositoryDBFlight 89 save - Enter Saving client the flight's dates:Departure: Maldive | Arrival: France
+| Date of departure: 12.09.2022 | Time of departure: 11:50 | Airport: Barceo
+| Number of place :200}
+31 Mar 2022 19:17:28,771 TRACE utils.JDBCUtils 33 getConnection - Enter
+31 Mar 2022 19:17:28,771 TRACE utils.JDBCUtils 44 getNewConnection - Enter
+31 Mar 2022 19:17:28,771 INFO  utils.JDBCUtils 49 getNewConnection - Trying to connect to database ... jdbc:sqlite:D:/mpp-proiect-repository-DobroiuAnamaria/FlightsCompany.db
+31 Mar 2022 19:17:28,772 INFO  utils.JDBCUtils 50 getNewConnection - Username: null
+31 Mar 2022 19:17:28,772 INFO  utils.JDBCUtils 51 getNewConnection - Password: null
+31 Mar 2022 19:17:28,773 TRACE utils.JDBCUtils 37 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@5b7a7f33)
+31 Mar 2022 19:17:28,778 TRACE repository.dataBaze.RepositoryDBFlight 99 save - Exit: Saved 1 instances
+31 Mar 2022 19:17:28,778 TRACE repository.dataBaze.RepositoryDBFlight 103 save - Exit
+31 Mar 2022 19:17:28,779 TRACE repository.dataBaze.RepositoryDBFlight 60 findAll - Enter Finding task
+31 Mar 2022 19:17:28,779 TRACE utils.JDBCUtils 33 getConnection - Enter
+31 Mar 2022 19:17:28,779 TRACE utils.JDBCUtils 37 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@5b7a7f33)
+31 Mar 2022 19:17:28,781 TRACE repository.dataBaze.RepositoryDBFlight 77 findAll - Exit: Found 11 instances
+31 Mar 2022 19:17:28,781 TRACE repository.dataBaze.RepositoryDBFlight 82 findAll - Exit
+31 Mar 2022 19:17:28,784 INFO  repository.dataBaze.RepositoryDBRezervation 26 <init> - Initialising RepositoryDBReservation with properties: {jdbc.url=jdbc:sqlite:D:/mpp-proiect-repository-DobroiuAnamaria/FlightsCompany.db}
+31 Mar 2022 19:17:28,789 TRACE repository.dataBaze.RepositoryDBRezervation 91 save - Enter Saving task Rezervation{flight='Maldive', clientF='fjjfj', clientL='hdhd', numberOfPlace=200}
+31 Mar 2022 19:17:28,790 TRACE utils.JDBCUtils 33 getConnection - Enter
+31 Mar 2022 19:17:28,790 TRACE utils.JDBCUtils 44 getNewConnection - Enter
+31 Mar 2022 19:17:28,790 INFO  utils.JDBCUtils 49 getNewConnection - Trying to connect to database ... jdbc:sqlite:D:/mpp-proiect-repository-DobroiuAnamaria/FlightsCompany.db
+31 Mar 2022 19:17:28,791 INFO  utils.JDBCUtils 50 getNewConnection - Username: null
+31 Mar 2022 19:17:28,791 INFO  utils.JDBCUtils 51 getNewConnection - Password: null
+31 Mar 2022 19:17:28,792 TRACE utils.JDBCUtils 37 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@333d4a8c)
+31 Mar 2022 19:17:28,797 TRACE repository.dataBaze.RepositoryDBRezervation 99 save - Exit: Saved 1 instances
+31 Mar 2022 19:17:28,797 TRACE repository.dataBaze.RepositoryDBRezervation 103 save - Exit
+31 Mar 2022 19:17:28,798 TRACE repository.dataBaze.RepositoryDBFlight 60 findAll - Enter Finding task
+31 Mar 2022 19:17:28,798 TRACE utils.JDBCUtils 33 getConnection - Enter
+31 Mar 2022 19:17:28,798 TRACE utils.JDBCUtils 37 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@5b7a7f33)
+31 Mar 2022 19:17:28,799 TRACE repository.dataBaze.RepositoryDBFlight 77 findAll - Exit: Found 11 instances
+31 Mar 2022 19:17:28,799 TRACE repository.dataBaze.RepositoryDBFlight 82 findAll - Exit
+31 Mar 2022 19:25:48,312 INFO  repository.dataBaze.RepositoryDBClient 25 <init> - Initialising RaceDBRepository with properties: {jdbc.url=jdbc:sqlite:D:/mpp-proiect-repository-DobroiuAnamaria/FlightsCompany.db}
+31 Mar 2022 19:25:48,331 TRACE repository.dataBaze.RepositoryDBClient 98 save - Enter Saving client Client{username='djjdd', password='jsdjjdj', firstNameClient='Marin', firstNameTourist='Rares', lastNameClient='Costel', lastNameTourist='Alex', addressClient='Matei Basarab', numberOfPlace=2}
+31 Mar 2022 19:25:48,331 TRACE utils.JDBCUtils 33 getConnection - Enter
+31 Mar 2022 19:25:48,331 TRACE utils.JDBCUtils 44 getNewConnection - Enter
+31 Mar 2022 19:25:48,331 INFO  utils.JDBCUtils 49 getNewConnection - Trying to connect to database ... jdbc:sqlite:D:/mpp-proiect-repository-DobroiuAnamaria/FlightsCompany.db
+31 Mar 2022 19:25:48,332 INFO  utils.JDBCUtils 50 getNewConnection - Username: null
+31 Mar 2022 19:25:48,332 INFO  utils.JDBCUtils 51 getNewConnection - Password: null
+31 Mar 2022 19:25:48,621 TRACE utils.JDBCUtils 37 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@6f53b8a)
+31 Mar 2022 19:25:48,628 ERROR repository.dataBaze.RepositoryDBClient 112 save - org.sqlite.SQLiteException: [SQLITE_ERROR] SQL error or missing database (table Client has no column named Userneme)
+31 Mar 2022 19:25:48,628 TRACE repository.dataBaze.RepositoryDBClient 114 save - Exit
+31 Mar 2022 19:25:48,629 TRACE repository.dataBaze.RepositoryDBClient 63 findAll - Enter Finding task
+31 Mar 2022 19:25:48,629 TRACE utils.JDBCUtils 33 getConnection - Enter
+31 Mar 2022 19:25:48,629 TRACE utils.JDBCUtils 37 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@6f53b8a)
+31 Mar 2022 19:25:48,631 TRACE repository.dataBaze.RepositoryDBClient 82 findAll - Exit: Found 13 instances
+31 Mar 2022 19:25:48,632 TRACE repository.dataBaze.RepositoryDBClient 87 findAll - Exit
+31 Mar 2022 19:25:48,635 INFO  repository.dataBaze.RepositoryDBFlight 24 <init> - Initialising RaceDBRepository with properties: {jdbc.url=jdbc:sqlite:D:/mpp-proiect-repository-DobroiuAnamaria/FlightsCompany.db}
+31 Mar 2022 19:25:48,646 TRACE repository.dataBaze.RepositoryDBFlight 89 save - Enter Saving client the flight's dates:Departure: Maldive | Arrival: France
+| Date of departure: 12.09.2022 | Time of departure: 11:50 | Airport: Barceo
+| Number of place :200}
+31 Mar 2022 19:25:48,647 TRACE utils.JDBCUtils 33 getConnection - Enter
+31 Mar 2022 19:25:48,647 TRACE utils.JDBCUtils 44 getNewConnection - Enter
+31 Mar 2022 19:25:48,647 INFO  utils.JDBCUtils 49 getNewConnection - Trying to connect to database ... jdbc:sqlite:D:/mpp-proiect-repository-DobroiuAnamaria/FlightsCompany.db
+31 Mar 2022 19:25:48,648 INFO  utils.JDBCUtils 50 getNewConnection - Username: null
+31 Mar 2022 19:25:48,648 INFO  utils.JDBCUtils 51 getNewConnection - Password: null
+31 Mar 2022 19:25:48,649 TRACE utils.JDBCUtils 37 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@5b7a7f33)
+31 Mar 2022 19:25:48,654 TRACE repository.dataBaze.RepositoryDBFlight 99 save - Exit: Saved 1 instances
+31 Mar 2022 19:25:48,654 TRACE repository.dataBaze.RepositoryDBFlight 103 save - Exit
+31 Mar 2022 19:25:48,654 TRACE repository.dataBaze.RepositoryDBFlight 60 findAll - Enter Finding task
+31 Mar 2022 19:25:48,657 TRACE utils.JDBCUtils 33 getConnection - Enter
+31 Mar 2022 19:25:48,657 TRACE utils.JDBCUtils 37 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@5b7a7f33)
+31 Mar 2022 19:25:48,659 TRACE repository.dataBaze.RepositoryDBFlight 77 findAll - Exit: Found 12 instances
+31 Mar 2022 19:25:48,660 TRACE repository.dataBaze.RepositoryDBFlight 82 findAll - Exit
+31 Mar 2022 19:25:48,663 INFO  repository.dataBaze.RepositoryDBRezervation 26 <init> - Initialising RepositoryDBReservation with properties: {jdbc.url=jdbc:sqlite:D:/mpp-proiect-repository-DobroiuAnamaria/FlightsCompany.db}
+31 Mar 2022 19:25:48,668 TRACE repository.dataBaze.RepositoryDBRezervation 91 save - Enter Saving task Rezervation{flight='Maldive', clientF='fjjfj', clientL='hdhd', numberOfPlace=200}
+31 Mar 2022 19:25:48,668 TRACE utils.JDBCUtils 33 getConnection - Enter
+31 Mar 2022 19:25:48,668 TRACE utils.JDBCUtils 44 getNewConnection - Enter
+31 Mar 2022 19:25:48,669 INFO  utils.JDBCUtils 49 getNewConnection - Trying to connect to database ... jdbc:sqlite:D:/mpp-proiect-repository-DobroiuAnamaria/FlightsCompany.db
+31 Mar 2022 19:25:48,669 INFO  utils.JDBCUtils 50 getNewConnection - Username: null
+31 Mar 2022 19:25:48,669 INFO  utils.JDBCUtils 51 getNewConnection - Password: null
+31 Mar 2022 19:25:48,670 TRACE utils.JDBCUtils 37 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@333d4a8c)
+31 Mar 2022 19:25:48,675 TRACE repository.dataBaze.RepositoryDBRezervation 99 save - Exit: Saved 1 instances
+31 Mar 2022 19:25:48,675 TRACE repository.dataBaze.RepositoryDBRezervation 103 save - Exit
+31 Mar 2022 19:25:48,676 TRACE repository.dataBaze.RepositoryDBFlight 60 findAll - Enter Finding task
+31 Mar 2022 19:25:48,676 TRACE utils.JDBCUtils 33 getConnection - Enter
+31 Mar 2022 19:25:48,676 TRACE utils.JDBCUtils 37 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@5b7a7f33)
+31 Mar 2022 19:25:48,677 TRACE repository.dataBaze.RepositoryDBFlight 77 findAll - Exit: Found 12 instances
+31 Mar 2022 19:25:48,677 TRACE repository.dataBaze.RepositoryDBFlight 82 findAll - Exit
+31 Mar 2022 19:28:28,089 INFO  repository.dataBaze.RepositoryDBClient 25 <init> - Initialising RaceDBRepository with properties: {jdbc.url=jdbc:sqlite:D:/mpp-proiect-repository-DobroiuAnamaria/FlightsCompany.db}
+31 Mar 2022 19:28:28,100 TRACE repository.dataBaze.RepositoryDBClient 98 save - Enter Saving client Client{username='djjdd', password='jsdjjdj', firstNameClient='Marin', firstNameTourist='Rares', lastNameClient='Costel', lastNameTourist='Alex', addressClient='Matei Basarab', numberOfPlace=2}
+31 Mar 2022 19:28:28,100 TRACE utils.JDBCUtils 33 getConnection - Enter
+31 Mar 2022 19:28:28,100 TRACE utils.JDBCUtils 44 getNewConnection - Enter
+31 Mar 2022 19:28:28,101 INFO  utils.JDBCUtils 49 getNewConnection - Trying to connect to database ... jdbc:sqlite:D:/mpp-proiect-repository-DobroiuAnamaria/FlightsCompany.db
+31 Mar 2022 19:28:28,101 INFO  utils.JDBCUtils 50 getNewConnection - Username: null
+31 Mar 2022 19:28:28,101 INFO  utils.JDBCUtils 51 getNewConnection - Password: null
+31 Mar 2022 19:28:28,273 TRACE utils.JDBCUtils 37 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@6f53b8a)
+31 Mar 2022 19:28:28,276 ERROR repository.dataBaze.RepositoryDBClient 112 save - org.sqlite.SQLiteException: [SQLITE_ERROR] SQL error or missing database (table Client has no column named Userneme)
+31 Mar 2022 19:28:28,277 TRACE repository.dataBaze.RepositoryDBClient 114 save - Exit
+31 Mar 2022 19:28:28,277 TRACE repository.dataBaze.RepositoryDBClient 63 findAll - Enter Finding task
+31 Mar 2022 19:28:28,278 TRACE utils.JDBCUtils 33 getConnection - Enter
+31 Mar 2022 19:28:28,278 TRACE utils.JDBCUtils 37 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@6f53b8a)
+31 Mar 2022 19:28:28,279 TRACE repository.dataBaze.RepositoryDBClient 82 findAll - Exit: Found 13 instances
+31 Mar 2022 19:28:28,280 TRACE repository.dataBaze.RepositoryDBClient 87 findAll - Exit
+31 Mar 2022 19:28:28,281 INFO  repository.dataBaze.RepositoryDBFlight 24 <init> - Initialising RaceDBRepository with properties: {jdbc.url=jdbc:sqlite:D:/mpp-proiect-repository-DobroiuAnamaria/FlightsCompany.db}
+31 Mar 2022 19:28:28,286 TRACE repository.dataBaze.RepositoryDBFlight 89 save - Enter Saving client the flight's dates:Departure: Maldive | Arrival: France
+| Date of departure: 12.09.2022 | Time of departure: 11:50 | Airport: Barceo
+| Number of place :200}
+31 Mar 2022 19:28:28,287 TRACE utils.JDBCUtils 33 getConnection - Enter
+31 Mar 2022 19:28:28,287 TRACE utils.JDBCUtils 44 getNewConnection - Enter
+31 Mar 2022 19:28:28,287 INFO  utils.JDBCUtils 49 getNewConnection - Trying to connect to database ... jdbc:sqlite:D:/mpp-proiect-repository-DobroiuAnamaria/FlightsCompany.db
+31 Mar 2022 19:28:28,287 INFO  utils.JDBCUtils 50 getNewConnection - Username: null
+31 Mar 2022 19:28:28,287 INFO  utils.JDBCUtils 51 getNewConnection - Password: null
+31 Mar 2022 19:28:28,288 TRACE utils.JDBCUtils 37 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@5b7a7f33)
+31 Mar 2022 19:28:28,292 TRACE repository.dataBaze.RepositoryDBFlight 99 save - Exit: Saved 1 instances
+31 Mar 2022 19:28:28,292 TRACE repository.dataBaze.RepositoryDBFlight 103 save - Exit
+31 Mar 2022 19:28:28,293 TRACE repository.dataBaze.RepositoryDBFlight 60 findAll - Enter Finding task
+31 Mar 2022 19:28:28,293 TRACE utils.JDBCUtils 33 getConnection - Enter
+31 Mar 2022 19:28:28,293 TRACE utils.JDBCUtils 37 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@5b7a7f33)
+31 Mar 2022 19:28:28,294 TRACE repository.dataBaze.RepositoryDBFlight 77 findAll - Exit: Found 13 instances
+31 Mar 2022 19:28:28,294 TRACE repository.dataBaze.RepositoryDBFlight 82 findAll - Exit
+31 Mar 2022 19:28:28,296 INFO  repository.dataBaze.RepositoryDBRezervation 26 <init> - Initialising RepositoryDBReservation with properties: {jdbc.url=jdbc:sqlite:D:/mpp-proiect-repository-DobroiuAnamaria/FlightsCompany.db}
+31 Mar 2022 19:28:28,300 TRACE repository.dataBaze.RepositoryDBRezervation 91 save - Enter Saving task Rezervation{flight='Maldive', clientF='fjjfj', clientL='hdhd', numberOfPlace=200}
+31 Mar 2022 19:28:28,301 TRACE utils.JDBCUtils 33 getConnection - Enter
+31 Mar 2022 19:28:28,301 TRACE utils.JDBCUtils 44 getNewConnection - Enter
+31 Mar 2022 19:28:28,301 INFO  utils.JDBCUtils 49 getNewConnection - Trying to connect to database ... jdbc:sqlite:D:/mpp-proiect-repository-DobroiuAnamaria/FlightsCompany.db
+31 Mar 2022 19:28:28,301 INFO  utils.JDBCUtils 50 getNewConnection - Username: null
+31 Mar 2022 19:28:28,301 INFO  utils.JDBCUtils 51 getNewConnection - Password: null
+31 Mar 2022 19:28:28,302 TRACE utils.JDBCUtils 37 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@333d4a8c)
+31 Mar 2022 19:28:28,305 TRACE repository.dataBaze.RepositoryDBRezervation 99 save - Exit: Saved 1 instances
+31 Mar 2022 19:28:28,305 TRACE repository.dataBaze.RepositoryDBRezervation 103 save - Exit
+31 Mar 2022 19:28:28,306 TRACE repository.dataBaze.RepositoryDBFlight 60 findAll - Enter Finding task
+31 Mar 2022 19:28:28,306 TRACE utils.JDBCUtils 33 getConnection - Enter
+31 Mar 2022 19:28:28,306 TRACE utils.JDBCUtils 37 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@5b7a7f33)
+31 Mar 2022 19:28:28,307 TRACE repository.dataBaze.RepositoryDBFlight 77 findAll - Exit: Found 13 instances
+31 Mar 2022 19:28:28,307 TRACE repository.dataBaze.RepositoryDBFlight 82 findAll - Exit
+31 Mar 2022 19:30:52,320 INFO  repository.dataBaze.RepositoryDBClient 25 <init> - Initialising RaceDBRepository with properties: {jdbc.url=jdbc:sqlite:D:/mpp-proiect-repository-DobroiuAnamaria/FlightsCompany.db}
+31 Mar 2022 19:30:52,330 TRACE repository.dataBaze.RepositoryDBClient 98 save - Enter Saving client Client{username='djjdd', password='jsdjjdj', firstNameClient='Marin', firstNameTourist='Rares', lastNameClient='Costel', lastNameTourist='Alex', addressClient='Matei Basarab', numberOfPlace=2}
+31 Mar 2022 19:30:52,330 TRACE utils.JDBCUtils 33 getConnection - Enter
+31 Mar 2022 19:30:52,330 TRACE utils.JDBCUtils 44 getNewConnection - Enter
+31 Mar 2022 19:30:52,330 INFO  utils.JDBCUtils 49 getNewConnection - Trying to connect to database ... jdbc:sqlite:D:/mpp-proiect-repository-DobroiuAnamaria/FlightsCompany.db
+31 Mar 2022 19:30:52,331 INFO  utils.JDBCUtils 50 getNewConnection - Username: null
+31 Mar 2022 19:30:52,331 INFO  utils.JDBCUtils 51 getNewConnection - Password: null
+31 Mar 2022 19:30:52,494 TRACE utils.JDBCUtils 37 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@6f53b8a)
+31 Mar 2022 19:30:52,497 ERROR repository.dataBaze.RepositoryDBClient 112 save - org.sqlite.SQLiteException: [SQLITE_ERROR] SQL error or missing database (table Client has no column named Userneme)
+31 Mar 2022 19:30:52,497 TRACE repository.dataBaze.RepositoryDBClient 114 save - Exit
+31 Mar 2022 19:30:52,497 TRACE repository.dataBaze.RepositoryDBClient 63 findAll - Enter Finding task
+31 Mar 2022 19:30:52,498 TRACE utils.JDBCUtils 33 getConnection - Enter
+31 Mar 2022 19:30:52,498 TRACE utils.JDBCUtils 37 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@6f53b8a)
+31 Mar 2022 19:30:52,499 TRACE repository.dataBaze.RepositoryDBClient 82 findAll - Exit: Found 13 instances
+31 Mar 2022 19:30:52,499 TRACE repository.dataBaze.RepositoryDBClient 87 findAll - Exit
+31 Mar 2022 19:30:52,500 INFO  repository.dataBaze.RepositoryDBFlight 24 <init> - Initialising RaceDBRepository with properties: {jdbc.url=jdbc:sqlite:D:/mpp-proiect-repository-DobroiuAnamaria/FlightsCompany.db}
+31 Mar 2022 19:30:52,504 TRACE repository.dataBaze.RepositoryDBFlight 89 save - Enter Saving client the flight's dates:Departure: Maldive | Arrival: France
+| Date of departure: 12.09.2022 | Time of departure: 11:50 | Airport: Barceo
+| Number of place :200}
+31 Mar 2022 19:30:52,505 TRACE utils.JDBCUtils 33 getConnection - Enter
+31 Mar 2022 19:30:52,505 TRACE utils.JDBCUtils 44 getNewConnection - Enter
+31 Mar 2022 19:30:52,505 INFO  utils.JDBCUtils 49 getNewConnection - Trying to connect to database ... jdbc:sqlite:D:/mpp-proiect-repository-DobroiuAnamaria/FlightsCompany.db
+31 Mar 2022 19:30:52,505 INFO  utils.JDBCUtils 50 getNewConnection - Username: null
+31 Mar 2022 19:30:52,505 INFO  utils.JDBCUtils 51 getNewConnection - Password: null
+31 Mar 2022 19:30:52,506 TRACE utils.JDBCUtils 37 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@5b7a7f33)
+31 Mar 2022 19:30:52,509 TRACE repository.dataBaze.RepositoryDBFlight 99 save - Exit: Saved 1 instances
+31 Mar 2022 19:30:52,510 TRACE repository.dataBaze.RepositoryDBFlight 103 save - Exit
+31 Mar 2022 19:30:52,510 TRACE repository.dataBaze.RepositoryDBFlight 60 findAll - Enter Finding task
+31 Mar 2022 19:30:52,510 TRACE utils.JDBCUtils 33 getConnection - Enter
+31 Mar 2022 19:30:52,510 TRACE utils.JDBCUtils 37 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@5b7a7f33)
+31 Mar 2022 19:30:52,511 TRACE repository.dataBaze.RepositoryDBFlight 77 findAll - Exit: Found 14 instances
+31 Mar 2022 19:30:52,511 TRACE repository.dataBaze.RepositoryDBFlight 82 findAll - Exit
+31 Mar 2022 19:30:52,512 INFO  repository.dataBaze.RepositoryDBRezervation 26 <init> - Initialising RepositoryDBReservation with properties: {jdbc.url=jdbc:sqlite:D:/mpp-proiect-repository-DobroiuAnamaria/FlightsCompany.db}
+31 Mar 2022 19:30:52,515 TRACE repository.dataBaze.RepositoryDBRezervation 91 save - Enter Saving task Rezervation{flight='Maldive', clientF='fjjfj', clientL='hdhd', numberOfPlace=200}
+31 Mar 2022 19:30:52,515 TRACE utils.JDBCUtils 33 getConnection - Enter
+31 Mar 2022 19:30:52,515 TRACE utils.JDBCUtils 44 getNewConnection - Enter
+31 Mar 2022 19:30:52,515 INFO  utils.JDBCUtils 49 getNewConnection - Trying to connect to database ... jdbc:sqlite:D:/mpp-proiect-repository-DobroiuAnamaria/FlightsCompany.db
+31 Mar 2022 19:30:52,516 INFO  utils.JDBCUtils 50 getNewConnection - Username: null
+31 Mar 2022 19:30:52,516 INFO  utils.JDBCUtils 51 getNewConnection - Password: null
+31 Mar 2022 19:30:52,516 TRACE utils.JDBCUtils 37 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@333d4a8c)
+31 Mar 2022 19:30:52,519 TRACE repository.dataBaze.RepositoryDBRezervation 99 save - Exit: Saved 1 instances
+31 Mar 2022 19:30:52,519 TRACE repository.dataBaze.RepositoryDBRezervation 103 save - Exit
+31 Mar 2022 19:30:52,520 TRACE repository.dataBaze.RepositoryDBFlight 60 findAll - Enter Finding task
+31 Mar 2022 19:30:52,520 TRACE utils.JDBCUtils 33 getConnection - Enter
+31 Mar 2022 19:30:52,520 TRACE utils.JDBCUtils 37 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@5b7a7f33)
+31 Mar 2022 19:30:52,520 TRACE repository.dataBaze.RepositoryDBFlight 77 findAll - Exit: Found 14 instances
+31 Mar 2022 19:30:52,520 TRACE repository.dataBaze.RepositoryDBFlight 82 findAll - Exit
+13 Apr 2022 19:06:02,493 INFO  repository.dataBaze.RepositoryDBClient 26 <init> - Initialising RaceDBRepository with properties: {jdbc.url=jdbc:sqlite:D:/mpp-proiect-repository-DobroiuAnamaria/FlightsCompany.db}
+13 Apr 2022 19:06:02,503 TRACE repository.dataBaze.RepositoryDBClient 89 save - Enter Saving client Client{username='djjdd', password='jsdjjdj', NameClient='Marin', addressClient='Rares'}
+13 Apr 2022 19:06:02,503 TRACE utils.JDBCUtils 33 getConnection - Enter
+13 Apr 2022 19:06:02,504 TRACE utils.JDBCUtils 44 getNewConnection - Enter
+13 Apr 2022 19:06:02,504 INFO  utils.JDBCUtils 49 getNewConnection - Trying to connect to database ... jdbc:sqlite:D:/mpp-proiect-repository-DobroiuAnamaria/FlightsCompany.db
+13 Apr 2022 19:06:02,504 INFO  utils.JDBCUtils 50 getNewConnection - Username: null
+13 Apr 2022 19:06:02,504 INFO  utils.JDBCUtils 51 getNewConnection - Password: null
+13 Apr 2022 19:06:02,668 TRACE utils.JDBCUtils 37 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@4d0d9fe7)
+13 Apr 2022 19:06:02,672 ERROR repository.dataBaze.RepositoryDBClient 100 save - org.sqlite.SQLiteException: [SQLITE_ERROR] SQL error or missing database (table Client has no column named Userneme)
+13 Apr 2022 19:06:02,672 TRACE repository.dataBaze.RepositoryDBClient 102 save - Exit
+13 Apr 2022 19:06:02,673 TRACE repository.dataBaze.RepositoryDBClient 61 findAll - Enter Finding task
+13 Apr 2022 19:06:02,673 TRACE utils.JDBCUtils 33 getConnection - Enter
+13 Apr 2022 19:06:02,673 TRACE utils.JDBCUtils 37 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@4d0d9fe7)
+13 Apr 2022 19:06:02,674 TRACE repository.dataBaze.RepositoryDBClient 77 findAll - Exit: Found 13 instances
+13 Apr 2022 19:06:02,674 TRACE repository.dataBaze.RepositoryDBClient 82 findAll - Exit
+13 Apr 2022 19:06:02,676 INFO  repository.dataBaze.RepositoryDBFlight 24 <init> - Initialising RaceDBRepository with properties: {jdbc.url=jdbc:sqlite:D:/mpp-proiect-repository-DobroiuAnamaria/FlightsCompany.db}
+13 Apr 2022 19:06:02,682 TRACE repository.dataBaze.RepositoryDBFlight 89 save - Enter Saving client the flight's dates:Departure: Maldive | Arrival: France
+| Date of departure: 12.09.2022 | Time of departure: 11:50 | Airport: Barceo
+| Number of place :200}
+13 Apr 2022 19:06:02,682 TRACE utils.JDBCUtils 33 getConnection - Enter
+13 Apr 2022 19:06:02,682 TRACE utils.JDBCUtils 44 getNewConnection - Enter
+13 Apr 2022 19:06:02,683 INFO  utils.JDBCUtils 49 getNewConnection - Trying to connect to database ... jdbc:sqlite:D:/mpp-proiect-repository-DobroiuAnamaria/FlightsCompany.db
+13 Apr 2022 19:06:02,683 INFO  utils.JDBCUtils 50 getNewConnection - Username: null
+13 Apr 2022 19:06:02,683 INFO  utils.JDBCUtils 51 getNewConnection - Password: null
+13 Apr 2022 19:06:02,684 TRACE utils.JDBCUtils 37 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@4722ef0c)
+13 Apr 2022 19:06:02,687 TRACE repository.dataBaze.RepositoryDBFlight 99 save - Exit: Saved 1 instances
+13 Apr 2022 19:06:02,687 TRACE repository.dataBaze.RepositoryDBFlight 103 save - Exit
+13 Apr 2022 19:06:02,687 TRACE repository.dataBaze.RepositoryDBFlight 60 findAll - Enter Finding task
+13 Apr 2022 19:06:02,688 TRACE utils.JDBCUtils 33 getConnection - Enter
+13 Apr 2022 19:06:02,688 TRACE utils.JDBCUtils 37 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@4722ef0c)
+13 Apr 2022 19:06:02,688 TRACE repository.dataBaze.RepositoryDBFlight 77 findAll - Exit: Found 15 instances
+13 Apr 2022 19:06:02,689 TRACE repository.dataBaze.RepositoryDBFlight 82 findAll - Exit
+13 Apr 2022 19:06:02,690 INFO  repository.dataBaze.RepositoryDBRezervation 26 <init> - Initialising RepositoryDBReservation with properties: {jdbc.url=jdbc:sqlite:D:/mpp-proiect-repository-DobroiuAnamaria/FlightsCompany.db}
+13 Apr 2022 19:06:02,694 TRACE repository.dataBaze.RepositoryDBRezervation 87 save - Enter Saving task Rezervation{id_flight=1, id_client=1, numberOfPlace=5, touristName='djdfj'}
+13 Apr 2022 19:06:02,694 TRACE utils.JDBCUtils 33 getConnection - Enter
+13 Apr 2022 19:06:02,694 TRACE utils.JDBCUtils 44 getNewConnection - Enter
+13 Apr 2022 19:06:02,694 INFO  utils.JDBCUtils 49 getNewConnection - Trying to connect to database ... jdbc:sqlite:D:/mpp-proiect-repository-DobroiuAnamaria/FlightsCompany.db
+13 Apr 2022 19:06:02,695 INFO  utils.JDBCUtils 50 getNewConnection - Username: null
+13 Apr 2022 19:06:02,695 INFO  utils.JDBCUtils 51 getNewConnection - Password: null
+13 Apr 2022 19:06:02,695 TRACE utils.JDBCUtils 37 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@4b8d604b)
+13 Apr 2022 19:06:02,700 TRACE repository.dataBaze.RepositoryDBRezervation 95 save - Exit: Saved 1 instances
+13 Apr 2022 19:06:02,701 TRACE repository.dataBaze.RepositoryDBRezervation 99 save - Exit
+13 Apr 2022 19:06:02,701 TRACE repository.dataBaze.RepositoryDBFlight 60 findAll - Enter Finding task
+13 Apr 2022 19:06:02,701 TRACE utils.JDBCUtils 33 getConnection - Enter
+13 Apr 2022 19:06:02,701 TRACE utils.JDBCUtils 37 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@4722ef0c)
+13 Apr 2022 19:06:02,702 TRACE repository.dataBaze.RepositoryDBFlight 77 findAll - Exit: Found 15 instances
+13 Apr 2022 19:06:02,702 TRACE repository.dataBaze.RepositoryDBFlight 82 findAll - Exit
+13 Apr 2022 19:08:08,403 INFO  repository.dataBaze.RepositoryDBClient 26 <init> - Initialising RaceDBRepository with properties: {jdbc.url=jdbc:sqlite:D:/mpp-proiect-repository-DobroiuAnamaria/FlightsCompany.db}
+13 Apr 2022 19:08:08,410 TRACE repository.dataBaze.RepositoryDBClient 89 save - Enter Saving client Client{username='djjdd', password='jsdjjdj', NameClient='Marin', addressClient='Rares'}
+13 Apr 2022 19:08:08,410 TRACE utils.JDBCUtils 33 getConnection - Enter
+13 Apr 2022 19:08:08,411 TRACE utils.JDBCUtils 44 getNewConnection - Enter
+13 Apr 2022 19:08:08,411 INFO  utils.JDBCUtils 49 getNewConnection - Trying to connect to database ... jdbc:sqlite:D:/mpp-proiect-repository-DobroiuAnamaria/FlightsCompany.db
+13 Apr 2022 19:08:08,411 INFO  utils.JDBCUtils 50 getNewConnection - Username: null
+13 Apr 2022 19:08:08,411 INFO  utils.JDBCUtils 51 getNewConnection - Password: null
+13 Apr 2022 19:08:08,570 TRACE utils.JDBCUtils 37 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@4d0d9fe7)
+13 Apr 2022 19:08:08,573 ERROR repository.dataBaze.RepositoryDBClient 100 save - org.sqlite.SQLiteException: [SQLITE_ERROR] SQL error or missing database (table Client has no column named Userneme)
+13 Apr 2022 19:08:08,573 TRACE repository.dataBaze.RepositoryDBClient 102 save - Exit
+13 Apr 2022 19:08:08,574 TRACE repository.dataBaze.RepositoryDBClient 61 findAll - Enter Finding task
+13 Apr 2022 19:08:08,574 TRACE utils.JDBCUtils 33 getConnection - Enter
+13 Apr 2022 19:08:08,574 TRACE utils.JDBCUtils 37 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@4d0d9fe7)
+13 Apr 2022 19:08:08,575 TRACE repository.dataBaze.RepositoryDBClient 77 findAll - Exit: Found 13 instances
+13 Apr 2022 19:08:08,575 TRACE repository.dataBaze.RepositoryDBClient 82 findAll - Exit
+13 Apr 2022 19:08:08,577 INFO  repository.dataBaze.RepositoryDBFlight 24 <init> - Initialising RaceDBRepository with properties: {jdbc.url=jdbc:sqlite:D:/mpp-proiect-repository-DobroiuAnamaria/FlightsCompany.db}
+13 Apr 2022 19:08:08,583 TRACE repository.dataBaze.RepositoryDBFlight 89 save - Enter Saving client the flight's dates:Departure: Maldive | Arrival: France
+| Date of departure: 12.09.2022 | Time of departure: 11:50 | Airport: Barceo
+| Number of place :200}
+13 Apr 2022 19:08:08,583 TRACE utils.JDBCUtils 33 getConnection - Enter
+13 Apr 2022 19:08:08,583 TRACE utils.JDBCUtils 44 getNewConnection - Enter
+13 Apr 2022 19:08:08,583 INFO  utils.JDBCUtils 49 getNewConnection - Trying to connect to database ... jdbc:sqlite:D:/mpp-proiect-repository-DobroiuAnamaria/FlightsCompany.db
+13 Apr 2022 19:08:08,584 INFO  utils.JDBCUtils 50 getNewConnection - Username: null
+13 Apr 2022 19:08:08,584 INFO  utils.JDBCUtils 51 getNewConnection - Password: null
+13 Apr 2022 19:08:08,584 TRACE utils.JDBCUtils 37 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@4722ef0c)
+13 Apr 2022 19:08:08,588 TRACE repository.dataBaze.RepositoryDBFlight 99 save - Exit: Saved 1 instances
+13 Apr 2022 19:08:08,588 TRACE repository.dataBaze.RepositoryDBFlight 103 save - Exit
+13 Apr 2022 19:08:08,589 TRACE repository.dataBaze.RepositoryDBFlight 60 findAll - Enter Finding task
+13 Apr 2022 19:08:08,589 TRACE utils.JDBCUtils 33 getConnection - Enter
+13 Apr 2022 19:08:08,589 TRACE utils.JDBCUtils 37 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@4722ef0c)
+13 Apr 2022 19:08:08,590 TRACE repository.dataBaze.RepositoryDBFlight 77 findAll - Exit: Found 16 instances
+13 Apr 2022 19:08:08,590 TRACE repository.dataBaze.RepositoryDBFlight 82 findAll - Exit
+13 Apr 2022 19:08:08,591 INFO  repository.dataBaze.RepositoryDBRezervation 26 <init> - Initialising RepositoryDBReservation with properties: {jdbc.url=jdbc:sqlite:D:/mpp-proiect-repository-DobroiuAnamaria/FlightsCompany.db}
+13 Apr 2022 19:08:08,595 TRACE repository.dataBaze.RepositoryDBRezervation 87 save - Enter Saving task Rezervation{id_flight=1, id_client=1, numberOfPlace=5, touristName='djdfj'}
+13 Apr 2022 19:08:08,595 TRACE utils.JDBCUtils 33 getConnection - Enter
+13 Apr 2022 19:08:08,595 TRACE utils.JDBCUtils 44 getNewConnection - Enter
+13 Apr 2022 19:08:08,595 INFO  utils.JDBCUtils 49 getNewConnection - Trying to connect to database ... jdbc:sqlite:D:/mpp-proiect-repository-DobroiuAnamaria/FlightsCompany.db
+13 Apr 2022 19:08:08,595 INFO  utils.JDBCUtils 50 getNewConnection - Username: null
+13 Apr 2022 19:08:08,596 INFO  utils.JDBCUtils 51 getNewConnection - Password: null
+13 Apr 2022 19:08:08,597 TRACE utils.JDBCUtils 37 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@4b8d604b)
+13 Apr 2022 19:08:08,602 TRACE repository.dataBaze.RepositoryDBRezervation 95 save - Exit: Saved 1 instances
+13 Apr 2022 19:08:08,603 TRACE repository.dataBaze.RepositoryDBRezervation 99 save - Exit
+13 Apr 2022 19:08:08,603 TRACE repository.dataBaze.RepositoryDBRezervation 59 findAll - Enter Finding task
+13 Apr 2022 19:08:08,603 TRACE utils.JDBCUtils 33 getConnection - Enter
+13 Apr 2022 19:08:08,603 TRACE utils.JDBCUtils 37 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@4b8d604b)
+13 Apr 2022 19:08:08,604 ERROR repository.dataBaze.RepositoryDBRezervation 78 findAll - java.sql.SQLException: no such column: 'TouristName'
+13 Apr 2022 19:08:08,604 TRACE repository.dataBaze.RepositoryDBRezervation 80 findAll - Exit
+13 Apr 2022 19:10:12,646 INFO  repository.dataBaze.RepositoryDBClient 26 <init> - Initialising RaceDBRepository with properties: {jdbc.url=jdbc:sqlite:D:/mpp-proiect-repository-DobroiuAnamaria/FlightsCompany.db}
+13 Apr 2022 19:10:12,653 TRACE repository.dataBaze.RepositoryDBClient 89 save - Enter Saving client Client{username='djjdd', password='jsdjjdj', NameClient='Marin', addressClient='Rares'}
+13 Apr 2022 19:10:12,654 TRACE utils.JDBCUtils 33 getConnection - Enter
+13 Apr 2022 19:10:12,654 TRACE utils.JDBCUtils 44 getNewConnection - Enter
+13 Apr 2022 19:10:12,654 INFO  utils.JDBCUtils 49 getNewConnection - Trying to connect to database ... jdbc:sqlite:D:/mpp-proiect-repository-DobroiuAnamaria/FlightsCompany.db
+13 Apr 2022 19:10:12,654 INFO  utils.JDBCUtils 50 getNewConnection - Username: null
+13 Apr 2022 19:10:12,655 INFO  utils.JDBCUtils 51 getNewConnection - Password: null
+13 Apr 2022 19:10:12,823 TRACE utils.JDBCUtils 37 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@4d0d9fe7)
+13 Apr 2022 19:10:12,828 ERROR repository.dataBaze.RepositoryDBClient 100 save - org.sqlite.SQLiteException: [SQLITE_ERROR] SQL error or missing database (table Client has no column named Userneme)
+13 Apr 2022 19:10:12,828 TRACE repository.dataBaze.RepositoryDBClient 102 save - Exit
+13 Apr 2022 19:10:12,828 TRACE repository.dataBaze.RepositoryDBClient 61 findAll - Enter Finding task
+13 Apr 2022 19:10:12,829 TRACE utils.JDBCUtils 33 getConnection - Enter
+13 Apr 2022 19:10:12,829 TRACE utils.JDBCUtils 37 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@4d0d9fe7)
+13 Apr 2022 19:10:12,831 TRACE repository.dataBaze.RepositoryDBClient 77 findAll - Exit: Found 13 instances
+13 Apr 2022 19:10:12,833 TRACE repository.dataBaze.RepositoryDBClient 82 findAll - Exit
+13 Apr 2022 19:10:12,834 INFO  repository.dataBaze.RepositoryDBFlight 24 <init> - Initialising RaceDBRepository with properties: {jdbc.url=jdbc:sqlite:D:/mpp-proiect-repository-DobroiuAnamaria/FlightsCompany.db}
+13 Apr 2022 19:10:12,841 TRACE repository.dataBaze.RepositoryDBFlight 89 save - Enter Saving client the flight's dates:Departure: Maldive | Arrival: France
+| Date of departure: 12.09.2022 | Time of departure: 11:50 | Airport: Barceo
+| Number of place :200}
+13 Apr 2022 19:10:12,842 TRACE utils.JDBCUtils 33 getConnection - Enter
+13 Apr 2022 19:10:12,842 TRACE utils.JDBCUtils 44 getNewConnection - Enter
+13 Apr 2022 19:10:12,842 INFO  utils.JDBCUtils 49 getNewConnection - Trying to connect to database ... jdbc:sqlite:D:/mpp-proiect-repository-DobroiuAnamaria/FlightsCompany.db
+13 Apr 2022 19:10:12,842 INFO  utils.JDBCUtils 50 getNewConnection - Username: null
+13 Apr 2022 19:10:12,842 INFO  utils.JDBCUtils 51 getNewConnection - Password: null
+13 Apr 2022 19:10:12,843 TRACE utils.JDBCUtils 37 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@4722ef0c)
+13 Apr 2022 19:10:12,847 TRACE repository.dataBaze.RepositoryDBFlight 99 save - Exit: Saved 1 instances
+13 Apr 2022 19:10:12,847 TRACE repository.dataBaze.RepositoryDBFlight 103 save - Exit
+13 Apr 2022 19:10:12,847 TRACE repository.dataBaze.RepositoryDBFlight 60 findAll - Enter Finding task
+13 Apr 2022 19:10:12,847 TRACE utils.JDBCUtils 33 getConnection - Enter
+13 Apr 2022 19:10:12,847 TRACE utils.JDBCUtils 37 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@4722ef0c)
+13 Apr 2022 19:10:12,848 TRACE repository.dataBaze.RepositoryDBFlight 77 findAll - Exit: Found 17 instances
+13 Apr 2022 19:10:12,849 TRACE repository.dataBaze.RepositoryDBFlight 82 findAll - Exit
+13 Apr 2022 19:10:12,851 INFO  repository.dataBaze.RepositoryDBRezervation 26 <init> - Initialising RepositoryDBReservation with properties: {jdbc.url=jdbc:sqlite:D:/mpp-proiect-repository-DobroiuAnamaria/FlightsCompany.db}
+13 Apr 2022 19:10:12,854 TRACE repository.dataBaze.RepositoryDBRezervation 87 save - Enter Saving task Rezervation{id_flight=1, id_client=1, numberOfPlace=5, touristName='djdfj'}
+13 Apr 2022 19:10:12,855 TRACE utils.JDBCUtils 33 getConnection - Enter
+13 Apr 2022 19:10:12,855 TRACE utils.JDBCUtils 44 getNewConnection - Enter
+13 Apr 2022 19:10:12,855 INFO  utils.JDBCUtils 49 getNewConnection - Trying to connect to database ... jdbc:sqlite:D:/mpp-proiect-repository-DobroiuAnamaria/FlightsCompany.db
+13 Apr 2022 19:10:12,855 INFO  utils.JDBCUtils 50 getNewConnection - Username: null
+13 Apr 2022 19:10:12,856 INFO  utils.JDBCUtils 51 getNewConnection - Password: null
+13 Apr 2022 19:10:12,856 TRACE utils.JDBCUtils 37 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@4b8d604b)
+13 Apr 2022 19:10:12,860 TRACE repository.dataBaze.RepositoryDBRezervation 95 save - Exit: Saved 1 instances
+13 Apr 2022 19:10:12,860 TRACE repository.dataBaze.RepositoryDBRezervation 99 save - Exit
+13 Apr 2022 19:10:12,860 TRACE repository.dataBaze.RepositoryDBRezervation 59 findAll - Enter Finding task
+13 Apr 2022 19:10:12,861 TRACE utils.JDBCUtils 33 getConnection - Enter
+13 Apr 2022 19:10:12,861 TRACE utils.JDBCUtils 37 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@4b8d604b)
+13 Apr 2022 19:10:12,861 TRACE repository.dataBaze.RepositoryDBRezervation 75 findAll - Exit: Found 10 instances
+13 Apr 2022 19:10:12,861 TRACE repository.dataBaze.RepositoryDBRezervation 80 findAll - Exit
+27 Apr 2022 12:26:31,229 INFO  repository.dataBaze.RepositoryDBClient 26 <init> - Initialising RaceDBRepository with properties: {}
+27 Apr 2022 12:26:31,241 TRACE repository.dataBaze.RepositoryDBClient 89 save - Enter Saving client Client{username='djjdd', password='jsdjjdj', NameClient='Marin', addressClient='Rares'}
+27 Apr 2022 12:26:31,242 TRACE utils.JDBCUtils 33 getConnection - Enter
+27 Apr 2022 12:26:31,242 TRACE utils.JDBCUtils 44 getNewConnection - Enter
+27 Apr 2022 12:26:31,243 INFO  utils.JDBCUtils 49 getNewConnection - Trying to connect to database ... null
+27 Apr 2022 12:26:31,243 INFO  utils.JDBCUtils 50 getNewConnection - Username: null
+27 Apr 2022 12:26:31,244 INFO  utils.JDBCUtils 51 getNewConnection - Password: null
+27 Apr 2022 12:26:31,247 ERROR utils.JDBCUtils 58 getNewConnection - java.sql.SQLException: The url cannot be null
+27 Apr 2022 12:26:31,248 TRACE utils.JDBCUtils 37 getConnection - Exit
+27 Apr 2022 12:38:36,467 INFO  repository.dataBaze.RepositoryDBClient 26 <init> - Initialising RaceDBRepository with properties: {}
+27 Apr 2022 12:38:36,483 TRACE repository.dataBaze.RepositoryDBClient 89 save - Enter Saving client Client{username='djjdd', password='jsdjjdj', NameClient='Marin', addressClient='Rares'}
+27 Apr 2022 12:38:36,484 TRACE utils.JDBCUtils 33 getConnection - Enter
+27 Apr 2022 12:38:36,485 TRACE utils.JDBCUtils 44 getNewConnection - Enter
+27 Apr 2022 12:38:36,485 INFO  utils.JDBCUtils 49 getNewConnection - Trying to connect to database ... null
+27 Apr 2022 12:38:36,486 INFO  utils.JDBCUtils 50 getNewConnection - Username: null
+27 Apr 2022 12:38:36,486 INFO  utils.JDBCUtils 51 getNewConnection - Password: null
+27 Apr 2022 12:38:36,491 ERROR utils.JDBCUtils 58 getNewConnection - java.sql.SQLException: The url cannot be null
+27 Apr 2022 12:38:36,493 TRACE utils.JDBCUtils 37 getConnection - Exit
+27 Apr 2022 12:39:36,956 INFO  repository.dataBaze.RepositoryDBClient 26 <init> - Initialising RaceDBRepository with properties: {}
+27 Apr 2022 12:39:36,969 TRACE repository.dataBaze.RepositoryDBClient 89 save - Enter Saving client Client{username='djjdd', password='jsdjjdj', NameClient='Marin', addressClient='Rares'}
+27 Apr 2022 12:39:36,969 TRACE utils.JDBCUtils 33 getConnection - Enter
+27 Apr 2022 12:39:36,970 TRACE utils.JDBCUtils 44 getNewConnection - Enter
+27 Apr 2022 12:39:36,970 INFO  utils.JDBCUtils 49 getNewConnection - Trying to connect to database ... null
+27 Apr 2022 12:39:36,971 INFO  utils.JDBCUtils 50 getNewConnection - Username: null
+27 Apr 2022 12:39:36,971 INFO  utils.JDBCUtils 51 getNewConnection - Password: null
+27 Apr 2022 12:39:36,974 ERROR utils.JDBCUtils 58 getNewConnection - java.sql.SQLException: The url cannot be null
+27 Apr 2022 12:39:36,975 TRACE utils.JDBCUtils 37 getConnection - Exit

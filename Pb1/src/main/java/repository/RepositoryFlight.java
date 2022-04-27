@@ -89,10 +89,7 @@ public abstract class RepositoryFlight <ID, E extends Entity<ID>> extends Abstra
     public List<E> findClient(Long id) {
         return null;
     }
-    @Override
-    public E save(ID id) {
-        return null;
-    }
+
 
     public abstract Flight save(Flight entity);
 
